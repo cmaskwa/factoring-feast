@@ -76,12 +76,34 @@ function doPost(e) {
 }
 
 // Visiting the web app URL in a browser shows this — handy for checking the deployment works.
+// It also checks that the script can actually open the spreadsheet.
 function doGet() {
-  return ContentService.createTextOutput('🦃 The Factoring Feast gradebook is running! Results go to the "' + TAB_NAME + '" tab.');
+  try {
+    const sheet = getSheet_();
+    return ContentService.createTextOutput('🦃 The Factoring Feast gradebook is running! Results go to the "' +
+      TAB_NAME + '" tab of the spreadsheet "' + sheet.getParent().getName() + '".');
+  } catch (err) {
+    return ContentService.createTextOutput('⚠️ The web app is running, but it cannot open the spreadsheet: ' + err.message);
+  }
+}
+
+// TEST: in the Apps Script editor, choose "testWrite" from the function menu and click ▶ Run.
+// A row for "Test Student" should appear in the Feast Results tab (delete it afterwards).
+function testWrite() {
+  const fake = {
+    postData: { contents: JSON.stringify({
+      name: 'Test Student',
+      questions: [{ id: 'Q1', dish: 'Dinner Rolls' }],
+      results: { Q1: { attempts: 2, solved: true } }
+    }) }
+  };
+  Logger.log(doPost(fake).getContent());
 }
 
 function getSheet_() {
   const ss = SPREADSHEET_ID ? SpreadsheetApp.openById(SPREADSHEET_ID) : SpreadsheetApp.getActiveSpreadsheet();
+  if (!ss) throw new Error('No spreadsheet found. Either create this script from inside your sheet ' +
+    '(Extensions → Apps Script) or paste the sheet ID into SPREADSHEET_ID at the top of Code.gs.');
   return ss.getSheetByName(TAB_NAME) || ss.insertSheet(TAB_NAME);
 }
 

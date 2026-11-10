@@ -600,10 +600,20 @@ function syncToSheet() {
     results: state.results
   };
   setSync("", "Sending your progress to your teacher…");
-  // text/plain keeps this a "simple" request so Apps Script accepts it without CORS preflight
-  fetch(SHEET_URL, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(payload) })
-    .then(() => setSync("ok", "Progress saved to your teacher's sheet ✓"))
-    .catch(() => setSync("err", "Couldn't reach your teacher's sheet. It will retry on your next answer."));
+  // text/plain keeps this a "simple" request (no CORS preflight). We read Apps Script's
+  // JSON reply so the status below reflects whether the row was really written.
+  fetch(SHEET_URL, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(payload) })
+    .then(r => r.text())
+    .then(t => {
+      let res; try { res = JSON.parse(t); } catch (e) { throw new Error("The sheet's web app didn't send back a normal reply (it may require a Google sign-in)."); }
+      if (res.ok) setSync("ok", "Progress saved to your teacher's sheet ✓");
+      else throw new Error("The sheet reported an error: " + res.error);
+    })
+    .catch(err => {
+      console.error("Feast sync failed:", err);
+      const why = (err && err.message && !/fetch/i.test(err.message)) ? " " + err.message : " The web app may not be set to 'Who has access: Anyone'.";
+      setSync("err", "⚠️ Progress NOT saved to your teacher's sheet." + why + " (Your work is still saved on this device and will resend on your next answer.)");
+    });
 }
 
 /* =====================================================================
