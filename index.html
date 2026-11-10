@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Great Thanksgiving Factoring Feast</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<script>
+  /* =====================================================================
+     TEACHER SETUP: paste your Google Apps Script Web App URL below
+     (see README.md). Leave it blank to play without saving to a sheet.
+     You can also add ?sheet=YOUR_URL to the game's address instead.
+     ===================================================================== */
+  window.FEAST_SHEET_URL = "";
+</script>
+<style>
+  :root {
+    --bg: #fbf3e4;
+    --card: #fffaf1;
+    --ink: #3b2414;
+    --muted: #7a5a43;
+    --brown: #6b3a1f;
+    --orange: #d9661f;
+    --orange-dark: #b24f12;
+    --gold: #e7a83a;
+    --cranberry: #9e2a2b;
+    --sage: #5f7f4a;
+    --line: #e5d3b8;
+    --shadow: 0 6px 18px rgba(80, 40, 10, .12);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    font-family: "Nunito", system-ui, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    background-image:
+      radial-gradient(circle at 10% 10%, rgba(231,168,58,.18) 0, transparent 40%),
+      radial-gradient(circle at 90% 0%, rgba(217,102,31,.15) 0, transparent 35%);
+    min-height: 100vh;
+  }
+  h1, h2, h3, .brand { font-family: "Fredoka", "Nunito", sans-serif; }
+  button { font: inherit; cursor: pointer; }
+
+  header {
+    background: linear-gradient(135deg, var(--brown), #8a4a22);
+    color: #fff6e6;
+    padding: 14px 20px;
+    box-shadow: var(--shadow);
+  }
+  .header-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  .brand { font-size: clamp(1.25rem, 3vw, 1.9rem); font-weight: 700; margin: 0; flex: 1 1 auto; }
+  .brand span { color: var(--gold); }
+  .tabs { display: flex; gap: 6px; }
+  .tab {
+    background: rgba(255,255,255,.12); color: #fff6e6; border: 2px solid transparent;
+    padding: 8px 16px; border-radius: 999px; font-weight: 700;
+  }
+  .tab[aria-selected="true"] { background: #fff6e6; color: var(--brown); }
+  .chef { font-size: .9rem; opacity: .95; }
+  .chef button { background: none; border: none; color: var(--gold); text-decoration: underline; padding: 0 4px; }
+
+  main { max-width: 1200px; margin: 0 auto; padding: 20px 16px 60px; }
+  .view[hidden] { display: none !important; }
+
+  .card { background: var(--card); border: 2px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); }
+
+  /* ---------- Start screen ---------- */
+  #startView { display: grid; place-items: center; min-height: 70vh; }
+  .start-card { max-width: 560px; width: 100%; padding: 32px 28px; text-align: center; }
+  .start-card .big-emoji { font-size: 3.5rem; letter-spacing: 6px; }
+  .start-card h2 { font-size: 1.9rem; margin: 10px 0 6px; color: var(--brown); }
+  .start-card p { color: var(--muted); line-height: 1.5; }
+  .field { display: flex; flex-direction: column; gap: 6px; text-align: left; margin: 18px 0; }
+  .field label { font-weight: 700; }
+  input[type="text"] {
+    font: inherit; font-size: 1.1rem; padding: 12px 14px; border: 2px solid var(--line);
+    border-radius: 12px; background: #fff; color: var(--ink); width: 100%;
+  }
+  input[type="text"]:focus { outline: none; border-color: var(--orange); box-shadow: 0 0 0 4px rgba(217,102,31,.18); }
+  .btn {
+    background: var(--orange); color: #fff; border: none; border-radius: 12px;
+    padding: 12px 20px; font-weight: 700; font-size: 1.05rem; box-shadow: 0 3px 0 var(--orange-dark);
+  }
+  .btn:hover { filter: brightness(1.05); }
+  .btn:active { transform: translateY(2px); box-shadow: 0 1px 0 var(--orange-dark); }
+  .btn.secondary { background: #fff; color: var(--brown); border: 2px solid var(--line); box-shadow: none; }
+  .btn:disabled { opacity: .5; cursor: not-allowed; }
+
+  /* ---------- Kitchen layout ---------- */
+  .kitchen { display: grid; grid-template-columns: 280px 1fr; gap: 20px; align-items: start; }
+  @media (max-width: 860px) { .kitchen { grid-template-columns: 1fr; } }
+
+  .menu { padding: 16px; }
+  .menu h3 { margin: 0 0 4px; color: var(--brown); }
+  .progress-text { color: var(--muted); font-size: .9rem; margin-bottom: 10px; }
+  .bar { height: 10px; background: #f0e2cc; border-radius: 99px; overflow: hidden; margin-bottom: 14px; }
+  .bar > div { height: 100%; background: linear-gradient(90deg, var(--gold), var(--orange)); width: 0; transition: width .5s; }
+  .menu-section { font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); font-weight: 700; margin: 12px 4px 6px; }
+  .dish-btn {
+    display: flex; align-items: center; gap: 10px; width: 100%; text-align: left;
+    background: #fff; border: 2px solid var(--line); border-radius: 12px; padding: 8px 10px; margin-bottom: 6px; color: var(--ink);
+  }
+  .dish-btn:hover { border-color: var(--gold); }
+  .dish-btn.active { border-color: var(--orange); background: #fff1e0; }
+  .dish-btn .emoji { font-size: 1.5rem; width: 32px; text-align: center; }
+  .dish-btn .name { flex: 1; font-weight: 700; font-size: .95rem; }
+  .dish-btn .status { font-size: .8rem; color: var(--muted); }
+  .dish-btn.solved .status { color: var(--sage); font-weight: 700; }
+
+  .station { display: flex; flex-direction: column; gap: 20px; }
+  .problem { padding: 24px; }
+  .problem-top { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  .problem-emoji { font-size: 3.2rem; }
+  .problem-title { margin: 0; color: var(--brown); font-size: 1.6rem; }
+  .pill { display: inline-block; font-size: .78rem; font-weight: 700; padding: 3px 10px; border-radius: 99px; background: #f3e3c9; color: var(--brown); margin-right: 6px; }
+  .pill.cubic { background: #fde2cc; color: var(--orange-dark); }
+  .pill.quartic { background: #e2ecd8; color: #3f5c2f; }
+  .story { color: var(--muted); margin: 12px 0 4px; line-height: 1.5; }
+  .poly {
+    font-family: "Cambria Math", "Times New Roman", serif; font-size: clamp(1.6rem, 4vw, 2.3rem);
+    text-align: center; padding: 18px 10px; margin: 14px 0; background: #fff; border: 2px dashed var(--gold); border-radius: 14px;
+    overflow-x: auto;
+  }
+  .poly sup { font-size: .6em; }
+  .answer-row { display: flex; gap: 10px; flex-wrap: wrap; }
+  .answer-row input { flex: 1 1 260px; font-family: "Consolas", "Courier New", monospace; }
+  .preview { min-height: 1.6em; margin: 8px 2px 0; color: var(--muted); font-family: "Cambria Math", "Times New Roman", serif; font-size: 1.2rem; }
+  .preview sup { font-size: .65em; }
+  .typing-help { font-size: .85rem; color: var(--muted); margin-top: 4px; }
+  .typing-help code { background: #f3e3c9; padding: 1px 6px; border-radius: 6px; color: var(--ink); }
+  .tools { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; align-items: center; }
+  .attempts { margin-left: auto; font-size: .9rem; color: var(--muted); }
+
+  .feedback { margin-top: 14px; padding: 12px 14px; border-radius: 12px; display: none; line-height: 1.45; }
+  .feedback.show { display: block; }
+  .feedback.good { background: #e6f0dc; border: 2px solid #9fbf86; color: #2f4a20; }
+  .feedback.partial { background: #fff1d6; border: 2px solid var(--gold); color: #6a4510; }
+  .feedback.bad { background: #f9e0dc; border: 2px solid #e0a198; color: #7a2018; }
+  .feedback .sup-math sup { font-size: .7em; }
+  .hint-box { margin-top: 12px; padding: 12px 14px; background: #f6ecdc; border-left: 5px solid var(--gold); border-radius: 8px; display: none; }
+  .hint-box.show { display: block; }
+  .hint-box p { margin: 4px 0; }
+
+  .table-card { padding: 18px; }
+  .table-card h3 { margin: 0 0 12px; color: var(--brown); }
+  .dinner-table {
+    background: repeating-linear-gradient(45deg, #b5653a 0 14px, #a9592f 14px 28px);
+    border-radius: 24px; padding: 18px; border: 6px solid #7a3d1c;
+  }
+  .cloth { background: #fff6e6; border-radius: 14px; padding: 12px; display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
+  @media (max-width: 640px) { .cloth { grid-template-columns: repeat(3, 1fr); } }
+  .plate {
+    aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, #fff 55%, #e8e0d4 56%, #fff 70%);
+    display: grid; place-items: center; font-size: clamp(1.4rem, 3.5vw, 2.2rem); position: relative; border: 1px solid #e1d6c6;
+  }
+  .plate.empty { opacity: .4; filter: grayscale(1); }
+  .plate.empty::after { content: "?"; position: absolute; font-size: 1rem; color: #999; font-family: "Fredoka"; }
+  .plate.empty .food { visibility: hidden; }
+  .plate.new { animation: pop .7s ease; }
+  @keyframes pop { 0% { transform: scale(.3); } 60% { transform: scale(1.2); } 100% { transform: scale(1); } }
+  .plate-label { text-align: center; font-size: .72rem; color: var(--muted); margin-top: 4px; font-weight: 700; }
+  .seat { display: flex; flex-direction: column; }
+
+  .sync { font-size: .82rem; margin-top: 10px; color: var(--muted); }
+  .sync .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #bbb; margin-right: 6px; vertical-align: middle; }
+  .sync.ok .dot { background: var(--sage); }
+  .sync.err .dot { background: var(--cranberry); }
+
+  /* ---------- Celebration ---------- */
+  .celebrate { padding: 28px; text-align: center; background: linear-gradient(135deg, #fff1d6, #fde2cc); }
+  .celebrate h2 { color: var(--brown); font-size: 2rem; margin: 6px 0; }
+  .falling { position: fixed; top: -50px; font-size: 2rem; pointer-events: none; animation: fall linear forwards; z-index: 50; }
+  @keyframes fall { to { transform: translateY(110vh) rotate(360deg); } }
+
+  /* ---------- Cookbook ---------- */
+  .cookbook-intro { text-align: center; margin-bottom: 18px; }
+  .cookbook-intro h2 { color: var(--brown); font-size: 2rem; margin: 0; }
+  .cookbook-intro p { color: var(--muted); }
+  .recipes { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; }
+  .recipe { padding: 22px; position: relative; overflow: hidden; }
+  .recipe::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 8px; background: var(--orange); }
+  .recipe.q::before { background: var(--sage); }
+  .recipe h3 { margin: 4px 0 2px; color: var(--brown); font-size: 1.4rem; }
+  .recipe .sub { color: var(--muted); margin: 0 0 12px; font-style: italic; }
+  .ingredients { background: #fff; border: 2px dashed var(--line); border-radius: 12px; padding: 10px 14px; margin-bottom: 14px; }
+  .ingredients strong { color: var(--orange-dark); }
+  .recipe.q .ingredients strong { color: #3f5c2f; }
+  .step { display: grid; grid-template-columns: 34px 1fr; gap: 10px; margin: 12px 0; }
+  .step .num { width: 30px; height: 30px; border-radius: 50%; background: var(--orange); color: #fff; display: grid; place-items: center; font-weight: 700; font-family: "Fredoka"; }
+  .recipe.q .step .num { background: var(--sage); }
+  .step p { margin: 0 0 4px; }
+  .math { font-family: "Cambria Math", "Times New Roman", serif; font-size: 1.2rem; background: #fff; padding: 6px 10px; border-radius: 8px; display: inline-block; border: 1px solid var(--line); }
+  .math sup { font-size: .65em; }
+  .chef-tip { background: #fff1d6; border-radius: 10px; padding: 10px 12px; margin-top: 12px; font-size: .95rem; }
+  .final { background: #e6f0dc; border-color: #9fbf86; font-weight: 700; }
+  .typing-card { padding: 18px 22px; margin-top: 20px; }
+  .typing-card table { border-collapse: collapse; width: 100%; }
+  .typing-card td { padding: 6px 8px; border-bottom: 1px solid var(--line); }
+  .typing-card code { background: #f3e3c9; padding: 2px 8px; border-radius: 6px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <h1 class="brand">🦃 The Great Thanksgiving <span>Factoring Feast</span></h1>
+    <nav class="tabs" role="tablist" aria-label="Game sections">
+      <button class="tab" role="tab" id="tabKitchen" aria-selected="true" data-view="kitchenView">🍳 Kitchen</button>
+      <button class="tab" role="tab" id="tabCookbook" aria-selected="false" data-view="cookbookView">📖 Cookbook</button>
+    </nav>
+    <div class="chef" id="chefLabel" hidden></div>
+  </div>
+</header>
+
+<main>
+  <!-- ================= START ================= -->
+  <section id="startView" class="view">
+    <div class="card start-card">
+      <div class="big-emoji">🦃🥧🌽</div>
+      <h2>Welcome to the Kitchen, Chef!</h2>
+      <p>The family is coming for Thanksgiving dinner, but every recipe is locked behind a polynomial.
+        <strong>Factor each polynomial completely</strong> to cook a dish and set it on the table.
+        Cook all 12 dishes to serve the Great Feast!</p>
+      <form id="startForm">
+        <div class="field">
+          <label for="nameInput">Your first and last name</label>
+          <input type="text" id="nameInput" autocomplete="name" placeholder="e.g. Jordan Rivera" required>
+        </div>
+        <button class="btn" type="submit">Start Cooking 🍳</button>
+      </form>
+      <p style="font-size:.85rem;margin-top:16px">Stuck? Open the <strong>📖 Cookbook</strong> tab any time for worked examples.</p>
+    </div>
+  </section>
+
+  <!-- ================= KITCHEN ================= -->
+  <section id="kitchenView" class="view" hidden>
+    <div class="kitchen">
+      <aside class="card menu">
+        <h3>Tonight's Menu</h3>
+        <div class="progress-text" id="progressText">0 of 12 dishes cooked</div>
+        <div class="bar"><div id="progressBar"></div></div>
+        <div id="menuList"></div>
+      </aside>
+
+      <div class="station">
+        <div id="celebration" class="card celebrate" hidden>
+          <div style="font-size:3rem">🦃🥧🌽🥔🍒🥐</div>
+          <h2>The Feast Is Served!</h2>
+          <p>You factored every dish completely. The whole family says thanks, Chef!</p>
+        </div>
+
+        <article class="card problem" id="problemCard">
+          <div class="problem-top">
+            <div class="problem-emoji" id="pEmoji"></div>
+            <div>
+              <div><span class="pill" id="pNumber"></span><span class="pill" id="pType"></span></div>
+              <h2 class="problem-title" id="pTitle"></h2>
+            </div>
+          </div>
+          <p class="story" id="pStory"></p>
+          <div class="poly" id="pPoly" aria-live="polite"></div>
+
+          <form id="answerForm" autocomplete="off">
+            <label for="answerInput" style="font-weight:700">Factor completely:</label>
+            <div class="answer-row" style="margin-top:6px">
+              <input type="text" id="answerInput" placeholder="(x+3)(x-2)(x+2)" spellcheck="false" autocapitalize="off">
+              <button class="btn" type="submit" id="submitBtn">Taste Test ✔</button>
+            </div>
+            <div class="preview" id="preview"></div>
+            <div class="typing-help">Type exponents with <code>^</code> (like <code>x^2</code>) and put each factor in parentheses.</div>
+          </form>
+
+          <div class="tools">
+            <button class="btn secondary" id="hintBtn" type="button">💡 Hint</button>
+            <button class="btn secondary" id="nextBtn" type="button">Next dish ➜</button>
+            <span class="attempts" id="attemptsLabel"></span>
+          </div>
+          <div class="hint-box" id="hintBox"></div>
+          <div class="feedback" id="feedback" role="status"></div>
+        </article>
+
+        <section class="card table-card">
+          <h3>🍽️ The Thanksgiving Table</h3>
+          <div class="dinner-table"><div class="cloth" id="cloth"></div></div>
+          <div class="sync" id="syncStatus"><span class="dot"></span><span id="syncText"></span></div>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COOKBOOK ================= -->
+  <section id="cookbookView" class="view" hidden>
+    <div class="cookbook-intro">
+      <h2>📖 Grandma's Factoring Cookbook</h2>
+      <p>Two family recipes for factoring. Always check the leftovers: a <strong>difference of two squares</strong> means you need to factor again!</p>
+    </div>
+
+    <div class="recipes">
+      <!-- Recipe 1: grouping -->
+      <article class="card recipe">
+        <span class="pill cubic">Cubic</span>
+        <h3>Recipe #1: Factor by Grouping</h3>
+        <p class="sub">For cubics with four terms</p>
+        <div class="ingredients">
+          <strong>Ingredients:</strong> <span class="math">x<sup>3</sup> + 5x<sup>2</sup> − 9x − 45</span>
+        </div>
+        <div class="step"><div class="num">1</div><div>
+          <p><strong>Split into two groups</strong> — the first two terms and the last two terms.</p>
+          <span class="math">(x<sup>3</sup> + 5x<sup>2</sup>) + (−9x − 45)</span>
+        </div></div>
+        <div class="step"><div class="num">2</div><div>
+          <p><strong>Pull out the GCF of each group.</strong> If the second group starts with a minus, pull out a <em>negative</em> GCF.</p>
+          <span class="math">x<sup>2</sup>(x + 5) − 9(x + 5)</span>
+        </div></div>
+        <div class="step"><div class="num">3</div><div>
+          <p><strong>Factor out the matching binomial.</strong> Both groups share <span class="math">(x + 5)</span>.</p>
+          <span class="math">(x + 5)(x<sup>2</sup> − 9)</span>
+        </div></div>
+        <div class="step"><div class="num">4</div><div>
+          <p><strong>Check the leftovers!</strong> <span class="math">x<sup>2</sup> − 9</span> is a difference of two squares: <span class="math">a<sup>2</sup> − b<sup>2</sup> = (a − b)(a + b)</span></p>
+          <span class="math final">(x + 5)(x − 3)(x + 3)</span>
+        </div></div>
+        <div class="chef-tip">👩‍🍳 <strong>Chef's tip:</strong> If the two binomials in step 2 don't match, double-check the sign of the GCF you pulled out of the second group.</div>
+      </article>
+
+      <!-- Recipe 2: quadratic form quartic -->
+      <article class="card recipe q">
+        <span class="pill quartic">Quartic</span>
+        <h3>Recipe #2: Quadratic Form</h3>
+        <p class="sub">For quartics like ax<sup>4</sup> + bx<sup>2</sup> + c</p>
+        <div class="ingredients">
+          <strong>Ingredients:</strong> <span class="math">x<sup>4</sup> − 10x<sup>2</sup> + 9</span>
+        </div>
+        <div class="step"><div class="num">1</div><div>
+          <p><strong>Substitute</strong> <span class="math">u = x<sup>2</sup></span>, so <span class="math">x<sup>4</sup> = u<sup>2</sup></span>.</p>
+          <span class="math">u<sup>2</sup> − 10u + 9</span>
+        </div></div>
+        <div class="step"><div class="num">2</div><div>
+          <p><strong>Factor like a quadratic.</strong> Two numbers that multiply to 9 and add to −10: −1 and −9.</p>
+          <span class="math">(u − 1)(u − 9)</span>
+        </div></div>
+        <div class="step"><div class="num">3</div><div>
+          <p><strong>Put x<sup>2</sup> back in</strong> for u.</p>
+          <span class="math">(x<sup>2</sup> − 1)(x<sup>2</sup> − 9)</span>
+        </div></div>
+        <div class="step"><div class="num">4</div><div>
+          <p><strong>Check the leftovers!</strong> Both factors are differences of two squares.</p>
+          <span class="math final">(x − 1)(x + 1)(x − 3)(x + 3)</span>
+        </div></div>
+        <div class="chef-tip">👩‍🍳 <strong>Special side dish:</strong> <span class="math">x<sup>4</sup> − 81</span> is already a difference of squares: <span class="math">(x<sup>2</sup> − 9)(x<sup>2</sup> + 9)</span> → <span class="math">(x − 3)(x + 3)(x<sup>2</sup> + 9)</span>. A <em>sum</em> of squares like <span class="math">x<sup>2</sup> + 9</span> does <strong>not</strong> factor, and neither does <span class="math">x<sup>2</sup> − 2</span> (2 isn't a perfect square) — so you stop there.</div>
+      </article>
+    </div>
+
+    <div class="card typing-card">
+      <h3 style="margin-top:0;color:var(--brown)">⌨️ How to type your answers</h3>
+      <table>
+        <tr><td>Exponents</td><td><code>x^2</code> means x<sup>2</sup></td></tr>
+        <tr><td>Each factor in parentheses</td><td><code>(x+5)(x-3)(x+3)</code></td></tr>
+        <tr><td>Order doesn't matter</td><td><code>(x+3)(x-3)(x+5)</code> is also correct</td></tr>
+        <tr><td>Repeated factors</td><td>You may write <code>(x+1)^2</code> or <code>(x+1)(x+1)</code></td></tr>
+      </table>
+    </div>
+  </section>
+</main>
+
+<script>
+/* =====================================================================
+   PROBLEM BANK
+   factors = number of non-constant factors in the COMPLETE factorization
+   ===================================================================== */
+const PROBLEMS = [
+  { id: "Q1", dish: "Dinner Rolls", emoji: "🥐", type: "cubic",
+    poly: [10, 2, 5, 1], factors: 2, dos: false,
+    story: "Warm, buttery rolls are the first thing on the table. Factor by grouping to get the dough rising!",
+    hints: ["Group the first two terms and the last two terms, then pull out the GCF of each group.",
+            "x^2(x + 5) + 2(x + 5)  — now factor out the common binomial."] },
+  { id: "Q2", dish: "Cranberry Sauce", emoji: "🍒", type: "cubic",
+    poly: [-12, 3, -4, 1], factors: 2, dos: false,
+    story: "Tart and sweet! Factor this cubic by grouping to simmer the cranberries.",
+    hints: ["Group (x^3 − 4x^2) and (3x − 12). What is the GCF of each group?",
+            "x^2(x − 4) + 3(x − 4)  — now factor out (x − 4)."] },
+  { id: "Q3", dish: "Corn on the Cob", emoji: "🌽", type: "quartic",
+    poly: [12, 0, 7, 0, 1], factors: 2, dos: false,
+    story: "Golden corn, ready to roast. This quartic is in quadratic form!",
+    hints: ["Let u = x^2. Then you are factoring u^2 + 7u + 12.",
+            "(u + 3)(u + 4) — now put x^2 back in for u. Can either factor be factored again?"] },
+  { id: "Q4", dish: "Mashed Potatoes", emoji: "🥔", type: "cubic",
+    poly: [-12, -4, 3, 1], factors: 3, dos: true,
+    story: "Grab the masher! Factor by grouping — but don't stop too early or the potatoes stay lumpy.",
+    hints: ["Group (x^3 + 3x^2) and (−4x − 12). Pull a negative GCF out of the second group.",
+            "x^2(x + 3) − 4(x + 3) = (x + 3)(x^2 − 4). Is x^2 − 4 finished cooking?"] },
+  { id: "Q5", dish: "Green Bean Casserole", emoji: "🥗", type: "cubic",
+    poly: [18, -9, -2, 1], factors: 3, dos: true,
+    story: "Crispy onions on top! Factor by grouping to bake the casserole.",
+    hints: ["Group (x^3 − 2x^2) and (−9x + 18). Pull −9 out of the second group.",
+            "x^2(x − 2) − 9(x − 2) = (x − 2)(x^2 − 9). Look for a difference of two squares!"] },
+  { id: "Q6", dish: "Turkey Gravy", emoji: "🥣", type: "quartic",
+    poly: [-16, 0, 0, 0, 1], factors: 3, dos: true,
+    story: "No turkey is complete without gravy. This one needs to be factored more than once!",
+    hints: ["x^4 − 16 is a difference of two squares: (x^2)^2 − 4^2.",
+            "(x^2 − 4)(x^2 + 4). One of these factors can be factored again — which one?"] },
+  { id: "Q7", dish: "Mac & Cheese", emoji: "🧀", type: "quartic",
+    poly: [-10, 0, 3, 0, 1], factors: 2, dos: false,
+    story: "Extra cheesy! Factor this quartic in quadratic form.",
+    hints: ["Let u = x^2. Factor u^2 + 3u − 10.",
+            "(u + 5)(u − 2) → (x^2 + 5)(x^2 − 2). Is 2 a perfect square? Is x^2 + 5 a difference?"] },
+  { id: "Q8", dish: "Stuffing", emoji: "🥖", type: "cubic",
+    poly: [-12, -8, 3, 2], factors: 3, dos: true,
+    story: "Bread, celery, and sage. Watch out — the leading coefficient isn't 1 on this one!",
+    hints: ["Group (2x^3 + 3x^2) and (−8x − 12). The GCF of the first group is x^2.",
+            "x^2(2x + 3) − 4(2x + 3) = (2x + 3)(x^2 − 4). Keep going!"] },
+  { id: "Q9", dish: "Sweet Potato Casserole", emoji: "🍠", type: "cubic",
+    poly: [3, -1, -12, 4], factors: 3, dos: true,
+    story: "Topped with marshmallows! Factor by grouping — the second group is sneaky.",
+    hints: ["Group (4x^3 − 12x^2) and (−x + 3). From the second group, factor out −1.",
+            "4x^2(x − 3) − 1(x − 3) = (x − 3)(4x^2 − 1). Is 4x^2 a perfect square?"] },
+  { id: "Q10", dish: "Apple Pie", emoji: "🍎", type: "quartic",
+    poly: [4, 0, -5, 0, 1], factors: 4, dos: true,
+    story: "Dessert time! Factor this quartic all the way down to four factors.",
+    hints: ["Let u = x^2. Factor u^2 − 5u + 4.",
+            "(x^2 − 1)(x^2 − 4). Both of these are differences of two squares!"] },
+  { id: "Q11", dish: "Pumpkin Pie", emoji: "🥧", type: "quartic",
+    poly: [36, 0, -13, 0, 1], factors: 4, dos: true,
+    story: "The star of dessert. Don't forget the whipped cream — and don't forget to factor completely!",
+    hints: ["Let u = x^2. Two numbers that multiply to 36 and add to −13?",
+            "(x^2 − 4)(x^2 − 9). Factor each difference of two squares."] },
+  { id: "Q12", dish: "Roast Turkey", emoji: "🦃", type: "quartic",
+    poly: [9, 0, -37, 0, 4], factors: 4, dos: true,
+    story: "The grand centerpiece! Only a master chef can factor this one completely.",
+    hints: ["Let u = x^2: factor 4u^2 − 37u + 9. Find two numbers that multiply to 4·9 = 36 and add to −37.",
+            "(4x^2 − 1)(x^2 − 9). Both factors are differences of two squares!"] }
+];
+
+/* =====================================================================
+   POLYNOMIAL MATH  (polynomials are arrays: p[i] = coefficient of x^i)
+   ===================================================================== */
+const P = {
+  trim(p) { const q = p.slice(); while (q.length > 1 && q[q.length - 1] === 0) q.pop(); return q.length ? q : [0]; },
+  deg(p) { const q = P.trim(p); return (q.length === 1 && q[0] === 0) ? -Infinity : q.length - 1; },
+  add(a, b) { const n = Math.max(a.length, b.length), r = []; for (let i = 0; i < n; i++) r[i] = (a[i] || 0) + (b[i] || 0); return P.trim(r); },
+  neg(a) { return a.map(c => -c); },
+  mul(a, b) { const r = new Array(a.length + b.length - 1).fill(0); a.forEach((x, i) => b.forEach((y, j) => r[i + j] += x * y)); return P.trim(r); },
+  pow(a, n) { let r = [1]; for (let i = 0; i < n; i++) r = P.mul(r, a); return r; },
+  eq(a, b) { a = P.trim(a); b = P.trim(b); return a.length === b.length && a.every((c, i) => Math.abs(c - b[i]) < 1e-9); },
+  toString(p) {
+    p = P.trim(p); let s = "";
+    for (let i = p.length - 1; i >= 0; i--) {
+      const c = p[i]; if (c === 0) continue;
+      const sign = c < 0 ? " − " : " + ", a = Math.abs(c);
+      const coef = (a === 1 && i > 0) ? "" : String(a);
+      const v = i === 0 ? "" : i === 1 ? "x" : "x^" + i;
+      s += (s === "" ? (c < 0 ? "−" : "") : sign) + coef + v;
+    }
+    return s || "0";
+  }
+};
+
+/* ---------- Parser: turns a typed answer into {poly, factors[]} ---------- */
+function tokenize(str) {
+  const sup = { "⁰":"0","¹":"1","²":"2","³":"3","⁴":"4","⁵":"5","⁶":"6","⁷":"7","⁸":"8","⁹":"9" };
+  let s = str.toLowerCase()
+    .replace(/[−–—]/g, "-").replace(/[×·•]/g, "*").replace(/[\[{]/g, "(").replace(/[\]}]/g, ")")
+    .replace(/\*\*/g, "^")
+    .replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹]+/g, m => "^" + [...m].map(ch => sup[ch]).join(""))
+    .replace(/\s+/g, "");
+  const toks = [];
+  for (let i = 0; i < s.length;) {
+    const ch = s[i];
+    if (/\d/.test(ch)) { let j = i; while (j < s.length && /\d/.test(s[j])) j++; toks.push({ t: "num", v: parseInt(s.slice(i, j), 10) }); i = j; }
+    else if (ch === "x") { toks.push({ t: "x" }); i++; }
+    else if ("+-*^()".includes(ch)) { toks.push({ t: ch }); i++; }
+    else throw new Error(`I don't recognize the symbol "${ch}". Use x, numbers, + − ^ and parentheses.`);
+  }
+  return toks;
+}
+
+function parseAnswer(str) {
+  const toks = tokenize(str); let i = 0;
+  const peek = () => toks[i] ? toks[i].t : null;
+  const eat = t => { if (peek() !== t) throw new Error(t === ")" ? "Looks like a parenthesis is missing a partner." : "Something looks off in your answer."); return toks[i++]; };
+
+  function expr() {
+    let terms = [term()];
+    while (peek() === "+" || peek() === "-") {
+      const op = toks[i++].t; const t = term();
+      terms.push(op === "-" ? { p: P.neg(t.p), f: [P.neg(t.p)] } : t);
+    }
+    if (terms.length === 1) return terms[0];
+    const p = terms.reduce((acc, t) => P.add(acc, t.p), [0]);
+    return { p, f: [p] };
+  }
+  function term() {
+    let parts = [unary()];
+    while (true) {
+      const n = peek();
+      if (n === "*") { i++; parts.push(unary()); }
+      else if (n === "(" || n === "x" || n === "num") parts.push(unary());
+      else break;
+    }
+    if (parts.length === 1) return parts[0];
+    return { p: parts.reduce((a, b) => P.mul(a, b.p), [1]), f: parts.flatMap(x => x.f) };
+  }
+  function unary() {
+    if (peek() === "-") { i++; const u = unary(); return { p: P.neg(u.p), f: [[-1], ...u.f] }; }
+    if (peek() === "+") { i++; return unary(); }
+    return power();
+  }
+  function power() {
+    const base = primary();
+    if (peek() === "^") {
+      i++;
+      let n;
+      if (peek() === "(") { i++; n = eat("num").v; eat(")"); } else n = eat("num").v;
+      if (n > 12) throw new Error("That exponent is too big for this kitchen!");
+      const f = []; for (let k = 0; k < n; k++) f.push(...base.f);
+      return { p: P.pow(base.p, n), f: n === 0 ? [[1]] : f };
+    }
+    return base;
+  }
+  function primary() {
+    const n = peek();
+    if (n === "num") { const v = toks[i++].v; return { p: [v], f: [[v]] }; }
+    if (n === "x") { i++; return { p: [0, 1], f: [[0, 1]] }; }
+    if (n === "(") { i++; const e = expr(); eat(")"); return e; }
+    if (n === null) throw new Error("Your answer seems to end too soon.");
+    throw new Error("Something looks off in your answer — check your signs and parentheses.");
+  }
+  if (!toks.length) throw new Error("Type your factored answer first.");
+  const result = expr();
+  if (i < toks.length) throw new Error(toks[i].t === ")" ? "You have an extra closing parenthesis." : "Something looks off in your answer.");
+  return result;
+}
+
+function isPerfectSquare(n) { n = Math.abs(n); const r = Math.round(Math.sqrt(n)); return r * r === n; }
+/* a·x^(2k) − b with a, b perfect squares (either sign order) */
+function isDifferenceOfSquares(p) {
+  p = P.trim(p); const d = p.length - 1;
+  if (d < 2 || d % 2) return false;
+  for (let k = 1; k < d; k++) if (p[k] !== 0) return false;
+  const a = p[d], b = p[0];
+  return b !== 0 && Math.sign(a) !== Math.sign(b) && isPerfectSquare(a) && isPerfectSquare(b);
+}
+
+function checkAnswer(input, prob) {
+  let parsed;
+  try { parsed = parseAnswer(input); } catch (e) { return { kind: "syntax", msg: e.message }; }
+  const target = prob.poly;
+  if (!P.eq(parsed.p, target)) {
+    if (P.eq(P.neg(parsed.p), target)) return { kind: "wrong", msg: "So close! Your answer is the <em>opposite</em> of the original. Check your signs, especially when you pulled out a negative GCF." };
+    return { kind: "wrong", msg: "Hmm, that doesn't taste right. When I multiply your factors back out, I don't get the original polynomial. Try expanding your answer to check it." };
+  }
+  const nonConst = parsed.f.filter(f => P.deg(f) > 0);
+  if (nonConst.length >= prob.factors) return { kind: "correct" };
+  if (nonConst.length <= 1) return { kind: "partial", msg: "That's equal to the original, but it isn't written as a <strong>product</strong> of factors yet. If you've grouped, factor out the common binomial!" };
+  const dos = nonConst.find(isDifferenceOfSquares);
+  if (dos) return { kind: "partial", msg: `Good start — your factors multiply back correctly! But <span class="sup-math">${fmt(P.toString(dos))}</span> is a <strong>difference of two squares</strong>. Factor it again to finish the dish.` };
+  return { kind: "partial", msg: "Your factors multiply back correctly, but it's not factored <strong>completely</strong> yet. One of your factors can be broken down further." };
+}
+
+/* ---------- Display helpers ---------- */
+function esc(s) { return s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+function fmt(s) {
+  return esc(s).replace(/\^\(?(\d+)\)?/g, "<sup>$1</sup>").replace(/\*/g, "·").replace(/(\S)-(\S)/g, "$1 − $2").replace(/-/g, "−")
+               .replace(/(\S)\+(\S)/g, "$1 + $2");
+}
+
+/* =====================================================================
+   STATE  (saved in this browser so a refresh doesn't lose progress)
+   ===================================================================== */
+let state = null;   // { name, results: { Q1: {attempts, solved}, ... } }
+let currentIdx = 0;
+let hintLevel = 0;
+
+const storeKey = name => "feast:" + name.trim().toLowerCase();
+function loadState(name) {
+  let saved = null;
+  try { saved = JSON.parse(localStorage.getItem(storeKey(name)) || "null"); } catch (e) {}
+  const results = {};
+  PROBLEMS.forEach(p => results[p.id] = (saved && saved.results && saved.results[p.id]) || { attempts: 0, solved: false });
+  return { name: name.trim().replace(/\s+/g, " "), results };
+}
+function saveLocal() { try { localStorage.setItem(storeKey(state.name), JSON.stringify(state)); localStorage.setItem("feast:last", state.name); } catch (e) {} }
+
+/* =====================================================================
+   GOOGLE SHEET SYNC
+   ===================================================================== */
+const SHEET_URL = (new URLSearchParams(location.search).get("sheet") || window.FEAST_SHEET_URL || "").trim();
+
+function setSync(cls, text) {
+  const el = document.getElementById("syncStatus");
+  el.className = "sync " + cls; document.getElementById("syncText").textContent = text;
+}
+function syncToSheet() {
+  if (!SHEET_URL) { setSync("", "Practice mode — progress is saved on this device only."); return; }
+  const payload = {
+    name: state.name,
+    questions: PROBLEMS.map(p => ({ id: p.id, dish: p.dish })),
+    results: state.results
+  };
+  setSync("", "Sending your progress to your teacher…");
+  // text/plain keeps this a "simple" request so Apps Script accepts it without CORS preflight
+  fetch(SHEET_URL, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(payload) })
+    .then(() => setSync("ok", "Progress saved to your teacher's sheet ✓"))
+    .catch(() => setSync("err", "Couldn't reach your teacher's sheet. It will retry on your next answer."));
+}
+
+/* =====================================================================
+   UI
+   ===================================================================== */
+const $ = id => document.getElementById(id);
+
+function showView(id) {
+  ["startView", "kitchenView", "cookbookView"].forEach(v => $(v).hidden = v !== id);
+  document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", String(t.dataset.view === id)));
+}
+document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => {
+  showView(t.dataset.view === "kitchenView" && !state ? "startView" : t.dataset.view);
+  if (t.dataset.view === "kitchenView" && !state) document.querySelectorAll(".tab")[0].setAttribute("aria-selected", "true");
+}));
+
+function renderMenu() {
+  const list = $("menuList"); list.innerHTML = "";
+  [["cubic", "🔥 Cubics — Factor by Grouping"], ["quartic", "🥄 Quartics"]].forEach(([type, label]) => {
+    const h = document.createElement("div"); h.className = "menu-section"; h.textContent = label; list.appendChild(h);
+    PROBLEMS.forEach((p, idx) => {
+      if (p.type !== type) return;
+      const r = state.results[p.id];
+      const b = document.createElement("button");
+      b.className = "dish-btn" + (idx === currentIdx ? " active" : "") + (r.solved ? " solved" : "");
+      b.innerHTML = `<span class="emoji">${p.emoji}</span><span class="name">${p.dish}</span>
+        <span class="status">${r.solved ? "✓ Cooked" : r.attempts ? r.attempts + " tries" : ""}</span>`;
+      b.addEventListener("click", () => selectProblem(idx));
+      list.appendChild(b);
+    });
+  });
+  const solved = PROBLEMS.filter(p => state.results[p.id].solved).length;
+  $("progressText").textContent = `${solved} of ${PROBLEMS.length} dishes cooked`;
+  $("progressBar").style.width = (100 * solved / PROBLEMS.length) + "%";
+  $("celebration").hidden = solved !== PROBLEMS.length;
+}
+
+function renderTable(newId) {
+  const cloth = $("cloth"); cloth.innerHTML = "";
+  PROBLEMS.forEach(p => {
+    const solved = state.results[p.id].solved;
+    const seat = document.createElement("div"); seat.className = "seat";
+    seat.innerHTML = `<div class="plate ${solved ? "" : "empty"} ${p.id === newId ? "new" : ""}" title="${p.dish}"><span class="food">${p.emoji}</span></div>
+      <div class="plate-label">${solved ? p.dish : "???"}</div>`;
+    cloth.appendChild(seat);
+  });
+}
+
+function selectProblem(idx) {
+  currentIdx = idx; hintLevel = 0;
+  const p = PROBLEMS[idx], r = state.results[p.id];
+  $("pEmoji").textContent = p.emoji;
+  $("pNumber").textContent = "Dish " + (idx + 1) + " of " + PROBLEMS.length;
+  $("pType").textContent = p.type === "cubic" ? "Cubic · Grouping" : "Quartic";
+  $("pType").className = "pill " + p.type;
+  $("pTitle").textContent = p.dish;
+  $("pStory").textContent = p.story;
+  $("pPoly").innerHTML = fmt(P.toString(p.poly));
+  $("answerInput").value = ""; $("preview").innerHTML = "";
+  $("hintBox").className = "hint-box"; $("hintBox").innerHTML = "";
+  $("hintBtn").disabled = false;
+  const fb = $("feedback");
+  if (r.solved) {
+    fb.className = "feedback good show";
+    fb.innerHTML = `✓ You already cooked this dish${r.answer ? `: <span class="sup-math">${fmt(r.answer)}</span>` : "!"}`;
+  } else { fb.className = "feedback"; fb.innerHTML = ""; }
+  updateAttempts();
+  renderMenu();
+  if (window.innerWidth > 860) $("answerInput").focus();
+}
+
+function updateAttempts() {
+  const r = state.results[PROBLEMS[currentIdx].id];
+  $("attemptsLabel").textContent = r.attempts ? `Attempts: ${r.attempts}` : "";
+}
+
+$("answerInput").addEventListener("input", e => {
+  const v = e.target.value.trim();
+  $("preview").innerHTML = v ? "Preview: " + fmt(v) : "";
+});
+
+$("answerForm").addEventListener("submit", e => {
+  e.preventDefault();
+  const p = PROBLEMS[currentIdx], r = state.results[p.id];
+  const input = $("answerInput").value.trim();
+  const fb = $("feedback");
+  const res = checkAnswer(input, p);
+
+  if (res.kind === "syntax") {          // typos don't count as attempts
+    fb.className = "feedback bad show"; fb.innerHTML = "⚠️ " + esc(res.msg); return;
+  }
+  if (r.solved) {                        // practising again after solving doesn't change the record
+    fb.className = "feedback " + (res.kind === "correct" ? "good" : "partial") + " show";
+    fb.innerHTML = res.kind === "correct" ? "✓ Still delicious! You've already cooked this dish." : res.msg;
+    return;
+  }
+
+  r.attempts++;
+  if (res.kind === "correct") {
+    r.solved = true; r.answer = input;
+    fb.className = "feedback good show";
+    fb.innerHTML = `🎉 <strong>Delicious!</strong> ${esc(p.dish)} is ready! <span class="sup-math">${fmt(P.toString(p.poly))} = ${fmt(input)}</span>`;
+    renderTable(p.id);
+    dropFood(p.emoji);
+  } else {
+    fb.className = "feedback " + (res.kind === "partial" ? "partial" : "bad") + " show";
+    fb.innerHTML = (res.kind === "partial" ? "🍳 " : "❌ ") + res.msg;
+  }
+  saveLocal(); updateAttempts(); renderMenu(); syncToSheet();
+});
+
+$("hintBtn").addEventListener("click", () => {
+  const p = PROBLEMS[currentIdx];
+  if (hintLevel >= p.hints.length) return;
+  hintLevel++;
+  $("hintBox").className = "hint-box show";
+  $("hintBox").innerHTML = p.hints.slice(0, hintLevel).map((h, i) => `<p><strong>Hint ${i + 1}:</strong> <span class="sup-math">${fmt(h)}</span></p>`).join("")
+    + (hintLevel < p.hints.length ? "" : `<p style="font-size:.85rem;color:var(--muted)">Need more help? Check the 📖 Cookbook tab.</p>`);
+  if (hintLevel >= p.hints.length) $("hintBtn").disabled = true;
+});
+
+$("nextBtn").addEventListener("click", () => {
+  for (let k = 1; k <= PROBLEMS.length; k++) {
+    const idx = (currentIdx + k) % PROBLEMS.length;
+    if (!state.results[PROBLEMS[idx].id].solved) return selectProblem(idx);
+  }
+  selectProblem((currentIdx + 1) % PROBLEMS.length);
+});
+
+function dropFood(emoji) {
+  const solvedAll = PROBLEMS.every(p => state.results[p.id].solved);
+  const pool = solvedAll ? PROBLEMS.map(p => p.emoji).concat(["🍂", "🍁"]) : [emoji, "🍂", "🍁"];
+  const count = solvedAll ? 45 : 14;
+  for (let k = 0; k < count; k++) {
+    const d = document.createElement("div"); d.className = "falling";
+    d.textContent = pool[Math.floor(Math.random() * pool.length)];
+    d.style.left = Math.random() * 100 + "vw";
+    d.style.animationDuration = (2 + Math.random() * 2.5) + "s";
+    d.style.animationDelay = (Math.random() * .8) + "s";
+    document.body.appendChild(d);
+    setTimeout(() => d.remove(), 5500);
+  }
+}
+
+function startGame(name) {
+  state = loadState(name);
+  saveLocal();
+  $("chefLabel").hidden = false;
+  $("chefLabel").innerHTML = `👩‍🍳 Chef ${esc(state.name)} <button id="switchBtn" type="button">switch</button>`;
+  $("switchBtn").addEventListener("click", () => { state = null; $("chefLabel").hidden = true; $("nameInput").value = ""; showView("startView"); });
+  const firstOpen = PROBLEMS.findIndex(p => !state.results[p.id].solved);
+  showView("kitchenView");
+  renderTable();
+  selectProblem(firstOpen === -1 ? 0 : firstOpen);
+  syncToSheet();   // makes sure the student's row exists right away
+}
+
+$("startForm").addEventListener("submit", e => {
+  e.preventDefault();
+  const name = $("nameInput").value.trim();
+  if (name.split(/\s+/).length < 2) { alert("Please type your first AND last name so your teacher can find your work."); return; }
+  startGame(name);
+});
+
+try { const last = localStorage.getItem("feast:last"); if (last) $("nameInput").value = last; } catch (e) {}
+showView("startView");
+
+// expose for automated testing
+window.__feast = { PROBLEMS, P, parseAnswer, checkAnswer };
+</script>
+</body>
+</html>
