@@ -8,6 +8,8 @@
  * Accuracy for a question = 1 correct answer / number of attempts
  *   (solved on 1st try = 100%, 2nd try = 50%, 4th try = 25%; not solved yet = 0%).
  * Overall Accuracy = dishes cooked / total attempts.
+ * Each student gets a random question per dish; hover over an Attempts cell to see
+ * the question they were given (and their correct answer once solved).
  *
  * SETUP (see README.md for screenshots-free step-by-step):
  *   1. Open your Google Sheet → Extensions → Apps Script.
@@ -40,6 +42,7 @@ function doPost(e) {
     // Build the row
     let cooked = 0, totalAttempts = 0;
     const row = [name];
+    const notes = [];   // hover notes: which question from the bank this student got
     questions.forEach(function (q) {
       const r = results[q.id] || { attempts: 0, solved: false };
       const attempts = Number(r.attempts) || 0;
@@ -47,6 +50,7 @@ function doPost(e) {
       if (r.solved) cooked++;
       row.push(attempts);
       row.push(attempts === 0 ? '' : (r.solved ? 1 / attempts : 0));
+      notes.push(r.problem ? 'Factor: ' + r.problem + (r.answer ? '\nStudent answer: ' + r.answer : '') : '', '');
     });
     row.push(cooked);
     row.push(totalAttempts);
@@ -66,6 +70,7 @@ function doPost(e) {
     if (rowIndex === -1) rowIndex = lastRow + 1;
 
     sheet.getRange(rowIndex, 1, 1, row.length).setValues([row]);
+    if (notes.length) sheet.getRange(rowIndex, 2, 1, notes.length).setNotes([notes]);
     formatRow_(sheet, rowIndex, questions.length);
     return json_({ ok: true, row: rowIndex });
   } catch (err) {

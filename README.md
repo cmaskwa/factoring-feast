@@ -5,25 +5,39 @@ Each correctly factored polynomial puts a dish on the table. There are 12 dishes
 
 ## What's in the game
 
-| # | Dish | Polynomial | Type | Needs a difference of squares? |
+There are **12 dishes**, and each dish is a different *type* of problem. Each dish has a **question bank**
+(1,111 questions in all), and every student gets a random question from the bank for each dish.
+So students sitting next to each other get different problems.
+A student keeps the same question for a dish even if they refresh the page or come back later.
+
+| # | Dish | Pattern (complete factorization) | Example | Questions in bank |
 |---|------|-----------|------|------|
-| Q1 | Dinner Rolls | x³ + 5x² + 2x + 10 | Cubic (grouping) | |
-| Q2 | Cranberry Sauce | x³ − 4x² + 3x − 12 | Cubic (grouping) | |
-| Q3 | Corn on the Cob | x⁴ + 7x² + 12 | Quartic (quadratic form) | |
-| Q4 | Mashed Potatoes | x³ + 3x² − 4x − 12 | Cubic (grouping) | ✅ |
-| Q5 | Green Bean Casserole | x³ − 2x² − 9x + 18 | Cubic (grouping) | ✅ |
-| Q6 | Turkey Gravy | x⁴ − 16 | Quartic | ✅ |
-| Q7 | Mac & Cheese | x⁴ + 3x² − 10 | Quartic (quadratic form) | (x² − 2 is a "stop here") |
-| Q8 | Stuffing | 2x³ + 3x² − 8x − 12 | Cubic (grouping) | ✅ |
-| Q9 | Sweet Potato Casserole | 4x³ − 12x² − x + 3 | Cubic (grouping) | ✅ |
-| Q10 | Apple Pie | x⁴ − 5x² + 4 | Quartic (quadratic form) | ✅ ✅ |
-| Q11 | Pumpkin Pie | x⁴ − 13x² + 36 | Quartic (quadratic form) | ✅ ✅ |
-| Q12 | Roast Turkey | 4x⁴ − 37x² + 9 | Quartic (quadratic form) | ✅ ✅ |
+| Q1 | Dinner Rolls | (x + a)(x² + b), cubic by grouping | x³ + 5x² + 2x + 10 | 100 |
+| Q2 | Cranberry Sauce | (x − a)(x² + b), cubic by grouping | x³ − 4x² + 3x − 12 | 100 |
+| Q3 | Corn on the Cob | (x² + a)(x² + b), quadratic form | x⁴ + 7x² + 12 | 100 |
+| Q4 | Mashed Potatoes | (x + a)(x − b)(x + b), grouping then **difference of squares** | x³ + 3x² − 4x − 12 | 99 |
+| Q5 | Green Bean Casserole | (x − a)(x − b)(x + b), grouping then **difference of squares** | x³ − 2x² − 9x + 18 | 99 |
+| Q6 | Turkey Gravy | p²x⁴ − q², a difference of squares (about 1 in 5 must be factored a second time) | x⁴ − 16 | 77 |
+| Q7 | Mac & Cheese | (x² + a)(x² − b), b not a perfect square, so stop at two factors | x⁴ + 3x² − 10 | 99 |
+| Q8 | Stuffing | (cx + a)(x − b)(x + b), grouping with leading coefficient > 1, then **difference of squares** | 2x³ + 3x² − 8x − 12 | 100 |
+| Q9 | Sweet Potato Casserole | (x ± a)(cx − b)(cx + b), grouping then **difference of squares** | 4x³ − 12x² − x + 3 | 100 |
+| Q10 | Apple Pie | (x − a)(x + a)(x − b)(x + b), quadratic form then **two differences of squares** | x⁴ − 5x² + 4 | 58 |
+| Q11 | Pumpkin Pie | (x² + a)(x − b)(x + b), quadratic form then **difference of squares** | x⁴ − 13x² + 36 | 94 |
+| Q12 | Roast Turkey | (px − q)(px + q)(x − r)(x + r), quadratic form with leading coefficient > 1 | 4x⁴ − 37x² + 9 | 85 |
+
+**Answer key:** [`question-bank.csv`](question-bank.csv) lists every question with its complete factorization.
+To view it, open it in Google Sheets (*File → Import → Upload*).
+In your results sheet, hover over a student's **Attempts** cell to see which question they got.
+
+A few dishes have fewer than 100 questions. For those types, going higher would mean constants in the thousands.
+
+To change the question bank, edit `tools/generate-bank.js` and run `node tools/generate-bank.js`.
+This rebuilds the bank inside `index.html` and the CSV answer key.
 
 * **Answer checking:** the game multiplies the student's answer back out and also checks that it is factored **completely**.
   If a student stops at `(x+3)(x^2-4)`, they get a message that `x² − 4` is a difference of two squares and they need to keep factoring.
   Any order of factors is accepted.
-* **Hints:** each dish has 2 hints. The second hint shows the grouping or substitution step.
+* **Hints:** each question has 2 hints made for that exact problem. The second hint shows the grouping or substitution step.
 * **📖 Cookbook tab:** worked examples of factoring by grouping (a cubic) and quadratic form (a quartic). Both end with a difference of squares.
 * Progress is also saved in the student's browser, so refreshing the page doesn't lose their work.
 

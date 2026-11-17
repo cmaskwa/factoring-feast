@@ -1,0 +1,1112 @@
+﻿Dish #,Dish,Question #,Polynomial,Factored completely,# of factors
+Q1,Dinner Rolls,1,x^3 + 5x^2 + 2x + 10,(x + 5)(x^2 + 2),2
+Q1,Dinner Rolls,2,x^3 + 9x^2 + 6x + 54,(x + 9)(x^2 + 6),2
+Q1,Dinner Rolls,3,x^3 + 10x^2 + 9x + 90,(x + 10)(x^2 + 9),2
+Q1,Dinner Rolls,4,x^3 + 10x^2 + 10x + 100,(x + 10)(x^2 + 10),2
+Q1,Dinner Rolls,5,x^3 + 5x^2 + 8x + 40,(x + 5)(x^2 + 8),2
+Q1,Dinner Rolls,6,x^3 + 5x^2 + 3x + 15,(x + 5)(x^2 + 3),2
+Q1,Dinner Rolls,7,x^3 + 7x^2 + x + 7,(x + 7)(x^2 + 1),2
+Q1,Dinner Rolls,8,x^3 + 7x^2 + 5x + 35,(x + 7)(x^2 + 5),2
+Q1,Dinner Rolls,9,x^3 + 3x^2 + 9x + 27,(x + 3)(x^2 + 9),2
+Q1,Dinner Rolls,10,x^3 + 8x^2 + 10x + 80,(x + 8)(x^2 + 10),2
+Q1,Dinner Rolls,11,x^3 + x^2 + 3x + 3,(x + 1)(x^2 + 3),2
+Q1,Dinner Rolls,12,x^3 + 7x^2 + 2x + 14,(x + 7)(x^2 + 2),2
+Q1,Dinner Rolls,13,x^3 + 10x^2 + 6x + 60,(x + 10)(x^2 + 6),2
+Q1,Dinner Rolls,14,x^3 + 9x^2 + 2x + 18,(x + 9)(x^2 + 2),2
+Q1,Dinner Rolls,15,x^3 + x^2 + 8x + 8,(x + 1)(x^2 + 8),2
+Q1,Dinner Rolls,16,x^3 + x^2 + 7x + 7,(x + 1)(x^2 + 7),2
+Q1,Dinner Rolls,17,x^3 + 4x^2 + 4x + 16,(x + 4)(x^2 + 4),2
+Q1,Dinner Rolls,18,x^3 + 7x^2 + 8x + 56,(x + 7)(x^2 + 8),2
+Q1,Dinner Rolls,19,x^3 + 10x^2 + 5x + 50,(x + 10)(x^2 + 5),2
+Q1,Dinner Rolls,20,x^3 + 10x^2 + 7x + 70,(x + 10)(x^2 + 7),2
+Q1,Dinner Rolls,21,x^3 + 5x^2 + x + 5,(x + 5)(x^2 + 1),2
+Q1,Dinner Rolls,22,x^3 + 7x^2 + 4x + 28,(x + 7)(x^2 + 4),2
+Q1,Dinner Rolls,23,x^3 + x^2 + 4x + 4,(x + 1)(x^2 + 4),2
+Q1,Dinner Rolls,24,x^3 + 9x^2 + 8x + 72,(x + 9)(x^2 + 8),2
+Q1,Dinner Rolls,25,x^3 + 2x^2 + 2x + 4,(x + 2)(x^2 + 2),2
+Q1,Dinner Rolls,26,x^3 + 8x^2 + x + 8,(x + 8)(x^2 + 1),2
+Q1,Dinner Rolls,27,x^3 + 7x^2 + 7x + 49,(x + 7)(x^2 + 7),2
+Q1,Dinner Rolls,28,x^3 + 8x^2 + 2x + 16,(x + 8)(x^2 + 2),2
+Q1,Dinner Rolls,29,x^3 + 5x^2 + 7x + 35,(x + 5)(x^2 + 7),2
+Q1,Dinner Rolls,30,x^3 + 2x^2 + 4x + 8,(x + 2)(x^2 + 4),2
+Q1,Dinner Rolls,31,x^3 + 8x^2 + 7x + 56,(x + 8)(x^2 + 7),2
+Q1,Dinner Rolls,32,x^3 + 6x^2 + 2x + 12,(x + 6)(x^2 + 2),2
+Q1,Dinner Rolls,33,x^3 + 4x^2 + 3x + 12,(x + 4)(x^2 + 3),2
+Q1,Dinner Rolls,34,x^3 + 5x^2 + 9x + 45,(x + 5)(x^2 + 9),2
+Q1,Dinner Rolls,35,x^3 + 4x^2 + 9x + 36,(x + 4)(x^2 + 9),2
+Q1,Dinner Rolls,36,x^3 + 9x^2 + 5x + 45,(x + 9)(x^2 + 5),2
+Q1,Dinner Rolls,37,x^3 + 3x^2 + 2x + 6,(x + 3)(x^2 + 2),2
+Q1,Dinner Rolls,38,x^3 + 4x^2 + 10x + 40,(x + 4)(x^2 + 10),2
+Q1,Dinner Rolls,39,x^3 + 2x^2 + 6x + 12,(x + 2)(x^2 + 6),2
+Q1,Dinner Rolls,40,x^3 + 4x^2 + 2x + 8,(x + 4)(x^2 + 2),2
+Q1,Dinner Rolls,41,x^3 + 8x^2 + 8x + 64,(x + 8)(x^2 + 8),2
+Q1,Dinner Rolls,42,x^3 + 2x^2 + 5x + 10,(x + 2)(x^2 + 5),2
+Q1,Dinner Rolls,43,x^3 + 6x^2 + x + 6,(x + 6)(x^2 + 1),2
+Q1,Dinner Rolls,44,x^3 + 10x^2 + 8x + 80,(x + 10)(x^2 + 8),2
+Q1,Dinner Rolls,45,x^3 + 10x^2 + 2x + 20,(x + 10)(x^2 + 2),2
+Q1,Dinner Rolls,46,x^3 + 6x^2 + 6x + 36,(x + 6)(x^2 + 6),2
+Q1,Dinner Rolls,47,x^3 + 2x^2 + x + 2,(x + 2)(x^2 + 1),2
+Q1,Dinner Rolls,48,x^3 + 5x^2 + 6x + 30,(x + 5)(x^2 + 6),2
+Q1,Dinner Rolls,49,x^3 + x^2 + x + 1,(x + 1)(x^2 + 1),2
+Q1,Dinner Rolls,50,x^3 + 2x^2 + 7x + 14,(x + 2)(x^2 + 7),2
+Q1,Dinner Rolls,51,x^3 + 5x^2 + 5x + 25,(x + 5)(x^2 + 5),2
+Q1,Dinner Rolls,52,x^3 + 4x^2 + x + 4,(x + 4)(x^2 + 1),2
+Q1,Dinner Rolls,53,x^3 + 8x^2 + 6x + 48,(x + 8)(x^2 + 6),2
+Q1,Dinner Rolls,54,x^3 + 9x^2 + 3x + 27,(x + 9)(x^2 + 3),2
+Q1,Dinner Rolls,55,x^3 + 10x^2 + x + 10,(x + 10)(x^2 + 1),2
+Q1,Dinner Rolls,56,x^3 + 9x^2 + 9x + 81,(x + 9)(x^2 + 9),2
+Q1,Dinner Rolls,57,x^3 + 3x^2 + x + 3,(x + 3)(x^2 + 1),2
+Q1,Dinner Rolls,58,x^3 + 8x^2 + 9x + 72,(x + 8)(x^2 + 9),2
+Q1,Dinner Rolls,59,x^3 + 6x^2 + 10x + 60,(x + 6)(x^2 + 10),2
+Q1,Dinner Rolls,60,x^3 + 6x^2 + 8x + 48,(x + 6)(x^2 + 8),2
+Q1,Dinner Rolls,61,x^3 + 10x^2 + 4x + 40,(x + 10)(x^2 + 4),2
+Q1,Dinner Rolls,62,x^3 + 6x^2 + 5x + 30,(x + 6)(x^2 + 5),2
+Q1,Dinner Rolls,63,x^3 + 7x^2 + 3x + 21,(x + 7)(x^2 + 3),2
+Q1,Dinner Rolls,64,x^3 + 3x^2 + 10x + 30,(x + 3)(x^2 + 10),2
+Q1,Dinner Rolls,65,x^3 + 4x^2 + 6x + 24,(x + 4)(x^2 + 6),2
+Q1,Dinner Rolls,66,x^3 + 3x^2 + 6x + 18,(x + 3)(x^2 + 6),2
+Q1,Dinner Rolls,67,x^3 + 7x^2 + 10x + 70,(x + 7)(x^2 + 10),2
+Q1,Dinner Rolls,68,x^3 + 9x^2 + 10x + 90,(x + 9)(x^2 + 10),2
+Q1,Dinner Rolls,69,x^3 + 2x^2 + 3x + 6,(x + 2)(x^2 + 3),2
+Q1,Dinner Rolls,70,x^3 + 7x^2 + 6x + 42,(x + 7)(x^2 + 6),2
+Q1,Dinner Rolls,71,x^3 + 8x^2 + 5x + 40,(x + 8)(x^2 + 5),2
+Q1,Dinner Rolls,72,x^3 + 2x^2 + 9x + 18,(x + 2)(x^2 + 9),2
+Q1,Dinner Rolls,73,x^3 + 3x^2 + 8x + 24,(x + 3)(x^2 + 8),2
+Q1,Dinner Rolls,74,x^3 + 9x^2 + x + 9,(x + 9)(x^2 + 1),2
+Q1,Dinner Rolls,75,x^3 + 6x^2 + 4x + 24,(x + 6)(x^2 + 4),2
+Q1,Dinner Rolls,76,x^3 + x^2 + 10x + 10,(x + 1)(x^2 + 10),2
+Q1,Dinner Rolls,77,x^3 + 3x^2 + 5x + 15,(x + 3)(x^2 + 5),2
+Q1,Dinner Rolls,78,x^3 + x^2 + 6x + 6,(x + 1)(x^2 + 6),2
+Q1,Dinner Rolls,79,x^3 + x^2 + 9x + 9,(x + 1)(x^2 + 9),2
+Q1,Dinner Rolls,80,x^3 + 2x^2 + 8x + 16,(x + 2)(x^2 + 8),2
+Q1,Dinner Rolls,81,x^3 + 5x^2 + 4x + 20,(x + 5)(x^2 + 4),2
+Q1,Dinner Rolls,82,x^3 + 6x^2 + 7x + 42,(x + 6)(x^2 + 7),2
+Q1,Dinner Rolls,83,x^3 + 3x^2 + 7x + 21,(x + 3)(x^2 + 7),2
+Q1,Dinner Rolls,84,x^3 + 9x^2 + 7x + 63,(x + 9)(x^2 + 7),2
+Q1,Dinner Rolls,85,x^3 + 9x^2 + 4x + 36,(x + 9)(x^2 + 4),2
+Q1,Dinner Rolls,86,x^3 + 2x^2 + 10x + 20,(x + 2)(x^2 + 10),2
+Q1,Dinner Rolls,87,x^3 + 8x^2 + 3x + 24,(x + 8)(x^2 + 3),2
+Q1,Dinner Rolls,88,x^3 + 10x^2 + 3x + 30,(x + 10)(x^2 + 3),2
+Q1,Dinner Rolls,89,x^3 + 4x^2 + 8x + 32,(x + 4)(x^2 + 8),2
+Q1,Dinner Rolls,90,x^3 + 3x^2 + 3x + 9,(x + 3)(x^2 + 3),2
+Q1,Dinner Rolls,91,x^3 + 6x^2 + 9x + 54,(x + 6)(x^2 + 9),2
+Q1,Dinner Rolls,92,x^3 + x^2 + 2x + 2,(x + 1)(x^2 + 2),2
+Q1,Dinner Rolls,93,x^3 + 6x^2 + 3x + 18,(x + 6)(x^2 + 3),2
+Q1,Dinner Rolls,94,x^3 + 8x^2 + 4x + 32,(x + 8)(x^2 + 4),2
+Q1,Dinner Rolls,95,x^3 + 4x^2 + 5x + 20,(x + 4)(x^2 + 5),2
+Q1,Dinner Rolls,96,x^3 + x^2 + 5x + 5,(x + 1)(x^2 + 5),2
+Q1,Dinner Rolls,97,x^3 + 7x^2 + 9x + 63,(x + 7)(x^2 + 9),2
+Q1,Dinner Rolls,98,x^3 + 5x^2 + 10x + 50,(x + 5)(x^2 + 10),2
+Q1,Dinner Rolls,99,x^3 + 4x^2 + 7x + 28,(x + 4)(x^2 + 7),2
+Q1,Dinner Rolls,100,x^3 + 3x^2 + 4x + 12,(x + 3)(x^2 + 4),2
+Q2,Cranberry Sauce,1,x^3 − 4x^2 + 3x − 12,(x − 4)(x^2 + 3),2
+Q2,Cranberry Sauce,2,x^3 − 9x^2 + 5x − 45,(x − 9)(x^2 + 5),2
+Q2,Cranberry Sauce,3,x^3 − 10x^2 + 6x − 60,(x − 10)(x^2 + 6),2
+Q2,Cranberry Sauce,4,x^3 − x^2 + 3x − 3,(x − 1)(x^2 + 3),2
+Q2,Cranberry Sauce,5,x^3 − x^2 + 7x − 7,(x − 1)(x^2 + 7),2
+Q2,Cranberry Sauce,6,x^3 − 9x^2 + 6x − 54,(x − 9)(x^2 + 6),2
+Q2,Cranberry Sauce,7,x^3 − 7x^2 + 5x − 35,(x − 7)(x^2 + 5),2
+Q2,Cranberry Sauce,8,x^3 − 5x^2 + 6x − 30,(x − 5)(x^2 + 6),2
+Q2,Cranberry Sauce,9,x^3 − 8x^2 + 4x − 32,(x − 8)(x^2 + 4),2
+Q2,Cranberry Sauce,10,x^3 − 7x^2 + x − 7,(x − 7)(x^2 + 1),2
+Q2,Cranberry Sauce,11,x^3 − 8x^2 + 7x − 56,(x − 8)(x^2 + 7),2
+Q2,Cranberry Sauce,12,x^3 − 4x^2 + 6x − 24,(x − 4)(x^2 + 6),2
+Q2,Cranberry Sauce,13,x^3 − 3x^2 + 2x − 6,(x − 3)(x^2 + 2),2
+Q2,Cranberry Sauce,14,x^3 − 9x^2 + 9x − 81,(x − 9)(x^2 + 9),2
+Q2,Cranberry Sauce,15,x^3 − 8x^2 + 6x − 48,(x − 8)(x^2 + 6),2
+Q2,Cranberry Sauce,16,x^3 − 2x^2 + 3x − 6,(x − 2)(x^2 + 3),2
+Q2,Cranberry Sauce,17,x^3 − 8x^2 + 10x − 80,(x − 8)(x^2 + 10),2
+Q2,Cranberry Sauce,18,x^3 − 7x^2 + 7x − 49,(x − 7)(x^2 + 7),2
+Q2,Cranberry Sauce,19,x^3 − 9x^2 + 7x − 63,(x − 9)(x^2 + 7),2
+Q2,Cranberry Sauce,20,x^3 − x^2 + 8x − 8,(x − 1)(x^2 + 8),2
+Q2,Cranberry Sauce,21,x^3 − 9x^2 + 8x − 72,(x − 9)(x^2 + 8),2
+Q2,Cranberry Sauce,22,x^3 − 10x^2 + 3x − 30,(x − 10)(x^2 + 3),2
+Q2,Cranberry Sauce,23,x^3 − 6x^2 + 8x − 48,(x − 6)(x^2 + 8),2
+Q2,Cranberry Sauce,24,x^3 − 9x^2 + 2x − 18,(x − 9)(x^2 + 2),2
+Q2,Cranberry Sauce,25,x^3 − 9x^2 + 4x − 36,(x − 9)(x^2 + 4),2
+Q2,Cranberry Sauce,26,x^3 − 4x^2 + 4x − 16,(x − 4)(x^2 + 4),2
+Q2,Cranberry Sauce,27,x^3 − 2x^2 + 7x − 14,(x − 2)(x^2 + 7),2
+Q2,Cranberry Sauce,28,x^3 − 8x^2 + 8x − 64,(x − 8)(x^2 + 8),2
+Q2,Cranberry Sauce,29,x^3 − 5x^2 + 3x − 15,(x − 5)(x^2 + 3),2
+Q2,Cranberry Sauce,30,x^3 − x^2 + 4x − 4,(x − 1)(x^2 + 4),2
+Q2,Cranberry Sauce,31,x^3 − 2x^2 + 5x − 10,(x − 2)(x^2 + 5),2
+Q2,Cranberry Sauce,32,x^3 − 10x^2 + 10x − 100,(x − 10)(x^2 + 10),2
+Q2,Cranberry Sauce,33,x^3 − 6x^2 + 5x − 30,(x − 6)(x^2 + 5),2
+Q2,Cranberry Sauce,34,x^3 − 3x^2 + 5x − 15,(x − 3)(x^2 + 5),2
+Q2,Cranberry Sauce,35,x^3 − 9x^2 + 10x − 90,(x − 9)(x^2 + 10),2
+Q2,Cranberry Sauce,36,x^3 − x^2 + 5x − 5,(x − 1)(x^2 + 5),2
+Q2,Cranberry Sauce,37,x^3 − 3x^2 + 8x − 24,(x − 3)(x^2 + 8),2
+Q2,Cranberry Sauce,38,x^3 − 8x^2 + 2x − 16,(x − 8)(x^2 + 2),2
+Q2,Cranberry Sauce,39,x^3 − 4x^2 + 8x − 32,(x − 4)(x^2 + 8),2
+Q2,Cranberry Sauce,40,x^3 − 2x^2 + 8x − 16,(x − 2)(x^2 + 8),2
+Q2,Cranberry Sauce,41,x^3 − 4x^2 + 2x − 8,(x − 4)(x^2 + 2),2
+Q2,Cranberry Sauce,42,x^3 − 3x^2 + 7x − 21,(x − 3)(x^2 + 7),2
+Q2,Cranberry Sauce,43,x^3 − 5x^2 + 10x − 50,(x − 5)(x^2 + 10),2
+Q2,Cranberry Sauce,44,x^3 − 6x^2 + 6x − 36,(x − 6)(x^2 + 6),2
+Q2,Cranberry Sauce,45,x^3 − 7x^2 + 8x − 56,(x − 7)(x^2 + 8),2
+Q2,Cranberry Sauce,46,x^3 − 9x^2 + 3x − 27,(x − 9)(x^2 + 3),2
+Q2,Cranberry Sauce,47,x^3 − 5x^2 + 8x − 40,(x − 5)(x^2 + 8),2
+Q2,Cranberry Sauce,48,x^3 − x^2 + x − 1,(x − 1)(x^2 + 1),2
+Q2,Cranberry Sauce,49,x^3 − 5x^2 + 4x − 20,(x − 5)(x^2 + 4),2
+Q2,Cranberry Sauce,50,x^3 − 8x^2 + x − 8,(x − 8)(x^2 + 1),2
+Q2,Cranberry Sauce,51,x^3 − 8x^2 + 5x − 40,(x − 8)(x^2 + 5),2
+Q2,Cranberry Sauce,52,x^3 − 10x^2 + 9x − 90,(x − 10)(x^2 + 9),2
+Q2,Cranberry Sauce,53,x^3 − 6x^2 + 7x − 42,(x − 6)(x^2 + 7),2
+Q2,Cranberry Sauce,54,x^3 − 7x^2 + 2x − 14,(x − 7)(x^2 + 2),2
+Q2,Cranberry Sauce,55,x^3 − x^2 + 9x − 9,(x − 1)(x^2 + 9),2
+Q2,Cranberry Sauce,56,x^3 − 2x^2 + 6x − 12,(x − 2)(x^2 + 6),2
+Q2,Cranberry Sauce,57,x^3 − 8x^2 + 9x − 72,(x − 8)(x^2 + 9),2
+Q2,Cranberry Sauce,58,x^3 − 6x^2 + 10x − 60,(x − 6)(x^2 + 10),2
+Q2,Cranberry Sauce,59,x^3 − 7x^2 + 3x − 21,(x − 7)(x^2 + 3),2
+Q2,Cranberry Sauce,60,x^3 − 5x^2 + 2x − 10,(x − 5)(x^2 + 2),2
+Q2,Cranberry Sauce,61,x^3 − 7x^2 + 6x − 42,(x − 7)(x^2 + 6),2
+Q2,Cranberry Sauce,62,x^3 − 10x^2 + 2x − 20,(x − 10)(x^2 + 2),2
+Q2,Cranberry Sauce,63,x^3 − 6x^2 + 2x − 12,(x − 6)(x^2 + 2),2
+Q2,Cranberry Sauce,64,x^3 − 3x^2 + x − 3,(x − 3)(x^2 + 1),2
+Q2,Cranberry Sauce,65,x^3 − 4x^2 + x − 4,(x − 4)(x^2 + 1),2
+Q2,Cranberry Sauce,66,x^3 − 6x^2 + 3x − 18,(x − 6)(x^2 + 3),2
+Q2,Cranberry Sauce,67,x^3 − 4x^2 + 10x − 40,(x − 4)(x^2 + 10),2
+Q2,Cranberry Sauce,68,x^3 − 10x^2 + 4x − 40,(x − 10)(x^2 + 4),2
+Q2,Cranberry Sauce,69,x^3 − 3x^2 + 3x − 9,(x − 3)(x^2 + 3),2
+Q2,Cranberry Sauce,70,x^3 − 4x^2 + 7x − 28,(x − 4)(x^2 + 7),2
+Q2,Cranberry Sauce,71,x^3 − 3x^2 + 6x − 18,(x − 3)(x^2 + 6),2
+Q2,Cranberry Sauce,72,x^3 − x^2 + 6x − 6,(x − 1)(x^2 + 6),2
+Q2,Cranberry Sauce,73,x^3 − 2x^2 + x − 2,(x − 2)(x^2 + 1),2
+Q2,Cranberry Sauce,74,x^3 − 2x^2 + 4x − 8,(x − 2)(x^2 + 4),2
+Q2,Cranberry Sauce,75,x^3 − 10x^2 + 5x − 50,(x − 10)(x^2 + 5),2
+Q2,Cranberry Sauce,76,x^3 − 10x^2 + 8x − 80,(x − 10)(x^2 + 8),2
+Q2,Cranberry Sauce,77,x^3 − 3x^2 + 10x − 30,(x − 3)(x^2 + 10),2
+Q2,Cranberry Sauce,78,x^3 − 6x^2 + 9x − 54,(x − 6)(x^2 + 9),2
+Q2,Cranberry Sauce,79,x^3 − 6x^2 + 4x − 24,(x − 6)(x^2 + 4),2
+Q2,Cranberry Sauce,80,x^3 − 10x^2 + 7x − 70,(x − 10)(x^2 + 7),2
+Q2,Cranberry Sauce,81,x^3 − 4x^2 + 5x − 20,(x − 4)(x^2 + 5),2
+Q2,Cranberry Sauce,82,x^3 − 9x^2 + x − 9,(x − 9)(x^2 + 1),2
+Q2,Cranberry Sauce,83,x^3 − 3x^2 + 9x − 27,(x − 3)(x^2 + 9),2
+Q2,Cranberry Sauce,84,x^3 − x^2 + 2x − 2,(x − 1)(x^2 + 2),2
+Q2,Cranberry Sauce,85,x^3 − 4x^2 + 9x − 36,(x − 4)(x^2 + 9),2
+Q2,Cranberry Sauce,86,x^3 − 5x^2 + x − 5,(x − 5)(x^2 + 1),2
+Q2,Cranberry Sauce,87,x^3 − 7x^2 + 9x − 63,(x − 7)(x^2 + 9),2
+Q2,Cranberry Sauce,88,x^3 − 6x^2 + x − 6,(x − 6)(x^2 + 1),2
+Q2,Cranberry Sauce,89,x^3 − x^2 + 10x − 10,(x − 1)(x^2 + 10),2
+Q2,Cranberry Sauce,90,x^3 − 10x^2 + x − 10,(x − 10)(x^2 + 1),2
+Q2,Cranberry Sauce,91,x^3 − 7x^2 + 4x − 28,(x − 7)(x^2 + 4),2
+Q2,Cranberry Sauce,92,x^3 − 5x^2 + 9x − 45,(x − 5)(x^2 + 9),2
+Q2,Cranberry Sauce,93,x^3 − 5x^2 + 5x − 25,(x − 5)(x^2 + 5),2
+Q2,Cranberry Sauce,94,x^3 − 2x^2 + 10x − 20,(x − 2)(x^2 + 10),2
+Q2,Cranberry Sauce,95,x^3 − 2x^2 + 2x − 4,(x − 2)(x^2 + 2),2
+Q2,Cranberry Sauce,96,x^3 − 7x^2 + 10x − 70,(x − 7)(x^2 + 10),2
+Q2,Cranberry Sauce,97,x^3 − 8x^2 + 3x − 24,(x − 8)(x^2 + 3),2
+Q2,Cranberry Sauce,98,x^3 − 2x^2 + 9x − 18,(x − 2)(x^2 + 9),2
+Q2,Cranberry Sauce,99,x^3 − 5x^2 + 7x − 35,(x − 5)(x^2 + 7),2
+Q2,Cranberry Sauce,100,x^3 − 3x^2 + 4x − 12,(x − 3)(x^2 + 4),2
+Q3,Corn on the Cob,1,x^4 + 7x^2 + 12,(x^2 + 3)(x^2 + 4),2
+Q3,Corn on the Cob,2,x^4 + 20x^2 + 99,(x^2 + 9)(x^2 + 11),2
+Q3,Corn on the Cob,3,x^4 + 4x^2 + 3,(x^2 + 1)(x^2 + 3),2
+Q3,Corn on the Cob,4,x^4 + 15x^2 + 36,(x^2 + 3)(x^2 + 12),2
+Q3,Corn on the Cob,5,x^4 + 23x^2 + 126,(x^2 + 9)(x^2 + 14),2
+Q3,Corn on the Cob,6,x^4 + 13x^2 + 40,(x^2 + 5)(x^2 + 8),2
+Q3,Corn on the Cob,7,x^4 + 25x^2 + 156,(x^2 + 12)(x^2 + 13),2
+Q3,Corn on the Cob,8,x^4 + 14x^2 + 13,(x^2 + 1)(x^2 + 13),2
+Q3,Corn on the Cob,9,x^4 + 18x^2 + 80,(x^2 + 8)(x^2 + 10),2
+Q3,Corn on the Cob,10,x^4 + 12x^2 + 20,(x^2 + 2)(x^2 + 10),2
+Q3,Corn on the Cob,11,x^4 + 19x^2 + 84,(x^2 + 7)(x^2 + 12),2
+Q3,Corn on the Cob,12,x^4 + 16x^2 + 55,(x^2 + 5)(x^2 + 11),2
+Q3,Corn on the Cob,13,x^4 + 11x^2 + 30,(x^2 + 5)(x^2 + 6),2
+Q3,Corn on the Cob,14,x^4 + 20x^2 + 84,(x^2 + 6)(x^2 + 14),2
+Q3,Corn on the Cob,15,x^4 + 18x^2 + 72,(x^2 + 6)(x^2 + 12),2
+Q3,Corn on the Cob,16,x^4 + 24x^2 + 135,(x^2 + 9)(x^2 + 15),2
+Q3,Corn on the Cob,17,x^4 + 27x^2 + 182,(x^2 + 13)(x^2 + 14),2
+Q3,Corn on the Cob,18,x^4 + 13x^2 + 30,(x^2 + 3)(x^2 + 10),2
+Q3,Corn on the Cob,19,x^4 + 17x^2 + 42,(x^2 + 3)(x^2 + 14),2
+Q3,Corn on the Cob,20,x^4 + 27x^2 + 180,(x^2 + 12)(x^2 + 15),2
+Q3,Corn on the Cob,21,x^4 + 14x^2 + 40,(x^2 + 4)(x^2 + 10),2
+Q3,Corn on the Cob,22,x^4 + 19x^2 + 60,(x^2 + 4)(x^2 + 15),2
+Q3,Corn on the Cob,23,x^4 + 9x^2 + 18,(x^2 + 3)(x^2 + 6),2
+Q3,Corn on the Cob,24,x^4 + 19x^2 + 70,(x^2 + 5)(x^2 + 14),2
+Q3,Corn on the Cob,25,x^4 + 24x^2 + 143,(x^2 + 11)(x^2 + 13),2
+Q3,Corn on the Cob,26,x^4 + 17x^2 + 60,(x^2 + 5)(x^2 + 12),2
+Q3,Corn on the Cob,27,x^4 + 17x^2 + 30,(x^2 + 2)(x^2 + 15),2
+Q3,Corn on the Cob,28,x^4 + 14x^2 + 24,(x^2 + 2)(x^2 + 12),2
+Q3,Corn on the Cob,29,x^4 + 11x^2 + 24,(x^2 + 3)(x^2 + 8),2
+Q3,Corn on the Cob,30,x^4 + 19x^2 + 90,(x^2 + 9)(x^2 + 10),2
+Q3,Corn on the Cob,31,x^4 + 21x^2 + 98,(x^2 + 7)(x^2 + 14),2
+Q3,Corn on the Cob,32,x^4 + 13x^2 + 42,(x^2 + 6)(x^2 + 7),2
+Q3,Corn on the Cob,33,x^4 + 22x^2 + 105,(x^2 + 7)(x^2 + 15),2
+Q3,Corn on the Cob,34,x^4 + 17x^2 + 72,(x^2 + 8)(x^2 + 9),2
+Q3,Corn on the Cob,35,x^4 + 17x^2 + 66,(x^2 + 6)(x^2 + 11),2
+Q3,Corn on the Cob,36,x^4 + 8x^2 + 7,(x^2 + 1)(x^2 + 7),2
+Q3,Corn on the Cob,37,x^4 + 23x^2 + 120,(x^2 + 8)(x^2 + 15),2
+Q3,Corn on the Cob,38,x^4 + 16x^2 + 48,(x^2 + 4)(x^2 + 12),2
+Q3,Corn on the Cob,39,x^4 + 14x^2 + 45,(x^2 + 5)(x^2 + 9),2
+Q3,Corn on the Cob,40,x^4 + 20x^2 + 75,(x^2 + 5)(x^2 + 15),2
+Q3,Corn on the Cob,41,x^4 + 8x^2 + 12,(x^2 + 2)(x^2 + 6),2
+Q3,Corn on the Cob,42,x^4 + 28x^2 + 195,(x^2 + 13)(x^2 + 15),2
+Q3,Corn on the Cob,43,x^4 + 9x^2 + 8,(x^2 + 1)(x^2 + 8),2
+Q3,Corn on the Cob,44,x^4 + 13x^2 + 22,(x^2 + 2)(x^2 + 11),2
+Q3,Corn on the Cob,45,x^4 + 7x^2 + 6,(x^2 + 1)(x^2 + 6),2
+Q3,Corn on the Cob,46,x^4 + 23x^2 + 132,(x^2 + 11)(x^2 + 12),2
+Q3,Corn on the Cob,47,x^4 + 19x^2 + 78,(x^2 + 6)(x^2 + 13),2
+Q3,Corn on the Cob,48,x^4 + 11x^2 + 10,(x^2 + 1)(x^2 + 10),2
+Q3,Corn on the Cob,49,x^4 + 6x^2 + 8,(x^2 + 2)(x^2 + 4),2
+Q3,Corn on the Cob,50,x^4 + 12x^2 + 32,(x^2 + 4)(x^2 + 8),2
+Q3,Corn on the Cob,51,x^4 + 11x^2 + 18,(x^2 + 2)(x^2 + 9),2
+Q3,Corn on the Cob,52,x^4 + 11x^2 + 28,(x^2 + 4)(x^2 + 7),2
+Q3,Corn on the Cob,53,x^4 + 5x^2 + 4,(x^2 + 1)(x^2 + 4),2
+Q3,Corn on the Cob,54,x^4 + 10x^2 + 24,(x^2 + 4)(x^2 + 6),2
+Q3,Corn on the Cob,55,x^4 + 26x^2 + 168,(x^2 + 12)(x^2 + 14),2
+Q3,Corn on the Cob,56,x^4 + 22x^2 + 117,(x^2 + 9)(x^2 + 13),2
+Q3,Corn on the Cob,57,x^4 + 13x^2 + 12,(x^2 + 1)(x^2 + 12),2
+Q3,Corn on the Cob,58,x^4 + 21x^2 + 104,(x^2 + 8)(x^2 + 13),2
+Q3,Corn on the Cob,59,x^4 + 15x^2 + 54,(x^2 + 6)(x^2 + 9),2
+Q3,Corn on the Cob,60,x^4 + 12x^2 + 11,(x^2 + 1)(x^2 + 11),2
+Q3,Corn on the Cob,61,x^4 + 15x^2 + 50,(x^2 + 5)(x^2 + 10),2
+Q3,Corn on the Cob,62,x^4 + 20x^2 + 96,(x^2 + 8)(x^2 + 12),2
+Q3,Corn on the Cob,63,x^4 + 7x^2 + 10,(x^2 + 2)(x^2 + 5),2
+Q3,Corn on the Cob,64,x^4 + 18x^2 + 56,(x^2 + 4)(x^2 + 14),2
+Q3,Corn on the Cob,65,x^4 + 15x^2 + 56,(x^2 + 7)(x^2 + 8),2
+Q3,Corn on the Cob,66,x^4 + 3x^2 + 2,(x^2 + 1)(x^2 + 2),2
+Q3,Corn on the Cob,67,x^4 + 15x^2 + 44,(x^2 + 4)(x^2 + 11),2
+Q3,Corn on the Cob,68,x^4 + 13x^2 + 36,(x^2 + 4)(x^2 + 9),2
+Q3,Corn on the Cob,69,x^4 + 16x^2 + 63,(x^2 + 7)(x^2 + 9),2
+Q3,Corn on the Cob,70,x^4 + 8x^2 + 15,(x^2 + 3)(x^2 + 5),2
+Q3,Corn on the Cob,71,x^4 + 15x^2 + 14,(x^2 + 1)(x^2 + 14),2
+Q3,Corn on the Cob,72,x^4 + 16x^2 + 15,(x^2 + 1)(x^2 + 15),2
+Q3,Corn on the Cob,73,x^4 + 9x^2 + 14,(x^2 + 2)(x^2 + 7),2
+Q3,Corn on the Cob,74,x^4 + 16x^2 + 39,(x^2 + 3)(x^2 + 13),2
+Q3,Corn on the Cob,75,x^4 + 10x^2 + 9,(x^2 + 1)(x^2 + 9),2
+Q3,Corn on the Cob,76,x^4 + 24x^2 + 140,(x^2 + 10)(x^2 + 14),2
+Q3,Corn on the Cob,77,x^4 + 22x^2 + 120,(x^2 + 10)(x^2 + 12),2
+Q3,Corn on the Cob,78,x^4 + 17x^2 + 70,(x^2 + 7)(x^2 + 10),2
+Q3,Corn on the Cob,79,x^4 + 14x^2 + 48,(x^2 + 6)(x^2 + 8),2
+Q3,Corn on the Cob,80,x^4 + 17x^2 + 52,(x^2 + 4)(x^2 + 13),2
+Q3,Corn on the Cob,81,x^4 + 10x^2 + 21,(x^2 + 3)(x^2 + 7),2
+Q3,Corn on the Cob,82,x^4 + 25x^2 + 154,(x^2 + 11)(x^2 + 14),2
+Q3,Corn on the Cob,83,x^4 + 14x^2 + 33,(x^2 + 3)(x^2 + 11),2
+Q3,Corn on the Cob,84,x^4 + 10x^2 + 16,(x^2 + 2)(x^2 + 8),2
+Q3,Corn on the Cob,85,x^4 + 23x^2 + 130,(x^2 + 10)(x^2 + 13),2
+Q3,Corn on the Cob,86,x^4 + 16x^2 + 28,(x^2 + 2)(x^2 + 14),2
+Q3,Corn on the Cob,87,x^4 + 29x^2 + 210,(x^2 + 14)(x^2 + 15),2
+Q3,Corn on the Cob,88,x^4 + 12x^2 + 27,(x^2 + 3)(x^2 + 9),2
+Q3,Corn on the Cob,89,x^4 + 25x^2 + 150,(x^2 + 10)(x^2 + 15),2
+Q3,Corn on the Cob,90,x^4 + 22x^2 + 112,(x^2 + 8)(x^2 + 14),2
+Q3,Corn on the Cob,91,x^4 + 26x^2 + 165,(x^2 + 11)(x^2 + 15),2
+Q3,Corn on the Cob,92,x^4 + 21x^2 + 90,(x^2 + 6)(x^2 + 15),2
+Q3,Corn on the Cob,93,x^4 + 12x^2 + 35,(x^2 + 5)(x^2 + 7),2
+Q3,Corn on the Cob,94,x^4 + 20x^2 + 91,(x^2 + 7)(x^2 + 13),2
+Q3,Corn on the Cob,95,x^4 + 5x^2 + 6,(x^2 + 2)(x^2 + 3),2
+Q3,Corn on the Cob,96,x^4 + 18x^2 + 77,(x^2 + 7)(x^2 + 11),2
+Q3,Corn on the Cob,97,x^4 + 6x^2 + 5,(x^2 + 1)(x^2 + 5),2
+Q3,Corn on the Cob,98,x^4 + 18x^2 + 45,(x^2 + 3)(x^2 + 15),2
+Q3,Corn on the Cob,99,x^4 + 16x^2 + 60,(x^2 + 6)(x^2 + 10),2
+Q3,Corn on the Cob,100,x^4 + 21x^2 + 108,(x^2 + 9)(x^2 + 12),2
+Q4,Mashed Potatoes,1,x^3 + 3x^2 − 4x − 12,(x + 3)(x − 2)(x + 2),3
+Q4,Mashed Potatoes,2,x^3 + x^2 − 9x − 9,(x + 1)(x − 3)(x + 3),3
+Q4,Mashed Potatoes,3,x^3 + x^2 − 81x − 81,(x + 1)(x − 9)(x + 9),3
+Q4,Mashed Potatoes,4,x^3 + 3x^2 − 64x − 192,(x + 3)(x − 8)(x + 8),3
+Q4,Mashed Potatoes,5,x^3 + 6x^2 − x − 6,(x + 6)(x − 1)(x + 1),3
+Q4,Mashed Potatoes,6,x^3 + 12x^2 − 64x − 768,(x + 12)(x − 8)(x + 8),3
+Q4,Mashed Potatoes,7,x^3 + 12x^2 − 16x − 192,(x + 12)(x − 4)(x + 4),3
+Q4,Mashed Potatoes,8,x^3 + x^2 − 4x − 4,(x + 1)(x − 2)(x + 2),3
+Q4,Mashed Potatoes,9,x^3 + 5x^2 − 4x − 20,(x + 5)(x − 2)(x + 2),3
+Q4,Mashed Potatoes,10,x^3 + 9x^2 − 36x − 324,(x + 9)(x − 6)(x + 6),3
+Q4,Mashed Potatoes,11,x^3 + 9x^2 − x − 9,(x + 9)(x − 1)(x + 1),3
+Q4,Mashed Potatoes,12,x^3 + 11x^2 − 9x − 99,(x + 11)(x − 3)(x + 3),3
+Q4,Mashed Potatoes,13,x^3 + 8x^2 − 25x − 200,(x + 8)(x − 5)(x + 5),3
+Q4,Mashed Potatoes,14,x^3 + 7x^2 − 25x − 175,(x + 7)(x − 5)(x + 5),3
+Q4,Mashed Potatoes,15,x^3 + 9x^2 − 4x − 36,(x + 9)(x − 2)(x + 2),3
+Q4,Mashed Potatoes,16,x^3 + 10x^2 − 64x − 640,(x + 10)(x − 8)(x + 8),3
+Q4,Mashed Potatoes,17,x^3 + 7x^2 − 16x − 112,(x + 7)(x − 4)(x + 4),3
+Q4,Mashed Potatoes,18,x^3 + 10x^2 − x − 10,(x + 10)(x − 1)(x + 1),3
+Q4,Mashed Potatoes,19,x^3 + 3x^2 − x − 3,(x + 3)(x − 1)(x + 1),3
+Q4,Mashed Potatoes,20,x^3 + 10x^2 − 16x − 160,(x + 10)(x − 4)(x + 4),3
+Q4,Mashed Potatoes,21,x^3 + 5x^2 − 9x − 45,(x + 5)(x − 3)(x + 3),3
+Q4,Mashed Potatoes,22,x^3 + 9x^2 − 9x − 81,(x + 9)(x − 3)(x + 3),3
+Q4,Mashed Potatoes,23,x^3 + 3x^2 − 16x − 48,(x + 3)(x − 4)(x + 4),3
+Q4,Mashed Potatoes,24,x^3 + 9x^2 − 49x − 441,(x + 9)(x − 7)(x + 7),3
+Q4,Mashed Potatoes,25,x^3 + 2x^2 − 36x − 72,(x + 2)(x − 6)(x + 6),3
+Q4,Mashed Potatoes,26,x^3 + 7x^2 − 9x − 63,(x + 7)(x − 3)(x + 3),3
+Q4,Mashed Potatoes,27,x^3 + 3x^2 − 25x − 75,(x + 3)(x − 5)(x + 5),3
+Q4,Mashed Potatoes,28,x^3 + 11x^2 − 36x − 396,(x + 11)(x − 6)(x + 6),3
+Q4,Mashed Potatoes,29,x^3 + 2x^2 − 49x − 98,(x + 2)(x − 7)(x + 7),3
+Q4,Mashed Potatoes,30,x^3 + 12x^2 − 81x − 972,(x + 12)(x − 9)(x + 9),3
+Q4,Mashed Potatoes,31,x^3 + 9x^2 − 25x − 225,(x + 9)(x − 5)(x + 5),3
+Q4,Mashed Potatoes,32,x^3 + 11x^2 − 16x − 176,(x + 11)(x − 4)(x + 4),3
+Q4,Mashed Potatoes,33,x^3 + 10x^2 − 25x − 250,(x + 10)(x − 5)(x + 5),3
+Q4,Mashed Potatoes,34,x^3 + 4x^2 − 64x − 256,(x + 4)(x − 8)(x + 8),3
+Q4,Mashed Potatoes,35,x^3 + 11x^2 − 64x − 704,(x + 11)(x − 8)(x + 8),3
+Q4,Mashed Potatoes,36,x^3 + 5x^2 − 81x − 405,(x + 5)(x − 9)(x + 9),3
+Q4,Mashed Potatoes,37,x^3 + x^2 − 49x − 49,(x + 1)(x − 7)(x + 7),3
+Q4,Mashed Potatoes,38,x^3 + x^2 − 25x − 25,(x + 1)(x − 5)(x + 5),3
+Q4,Mashed Potatoes,39,x^3 + 8x^2 − x − 8,(x + 8)(x − 1)(x + 1),3
+Q4,Mashed Potatoes,40,x^3 + 7x^2 − 81x − 567,(x + 7)(x − 9)(x + 9),3
+Q4,Mashed Potatoes,41,x^3 + 2x^2 − 16x − 32,(x + 2)(x − 4)(x + 4),3
+Q4,Mashed Potatoes,42,x^3 + 11x^2 − x − 11,(x + 11)(x − 1)(x + 1),3
+Q4,Mashed Potatoes,43,x^3 + 6x^2 − 16x − 96,(x + 6)(x − 4)(x + 4),3
+Q4,Mashed Potatoes,44,x^3 + 2x^2 − 25x − 50,(x + 2)(x − 5)(x + 5),3
+Q4,Mashed Potatoes,45,x^3 + 8x^2 − 9x − 72,(x + 8)(x − 3)(x + 3),3
+Q4,Mashed Potatoes,46,x^3 + 4x^2 − 9x − 36,(x + 4)(x − 3)(x + 3),3
+Q4,Mashed Potatoes,47,x^3 + 12x^2 − 25x − 300,(x + 12)(x − 5)(x + 5),3
+Q4,Mashed Potatoes,48,x^3 + 8x^2 − 36x − 288,(x + 8)(x − 6)(x + 6),3
+Q4,Mashed Potatoes,49,x^3 + 9x^2 − 16x − 144,(x + 9)(x − 4)(x + 4),3
+Q4,Mashed Potatoes,50,x^3 + 6x^2 − 64x − 384,(x + 6)(x − 8)(x + 8),3
+Q4,Mashed Potatoes,51,x^3 + 4x^2 − 4x − 16,(x + 4)(x − 2)(x + 2),3
+Q4,Mashed Potatoes,52,x^3 + 3x^2 − 49x − 147,(x + 3)(x − 7)(x + 7),3
+Q4,Mashed Potatoes,53,x^3 + 10x^2 − 9x − 90,(x + 10)(x − 3)(x + 3),3
+Q4,Mashed Potatoes,54,x^3 + 11x^2 − 25x − 275,(x + 11)(x − 5)(x + 5),3
+Q4,Mashed Potatoes,55,x^3 + 11x^2 − 4x − 44,(x + 11)(x − 2)(x + 2),3
+Q4,Mashed Potatoes,56,x^3 + 10x^2 − 36x − 360,(x + 10)(x − 6)(x + 6),3
+Q4,Mashed Potatoes,57,x^3 + 10x^2 − 81x − 810,(x + 10)(x − 9)(x + 9),3
+Q4,Mashed Potatoes,58,x^3 + 5x^2 − 49x − 245,(x + 5)(x − 7)(x + 7),3
+Q4,Mashed Potatoes,59,x^3 + 2x^2 − 9x − 18,(x + 2)(x − 3)(x + 3),3
+Q4,Mashed Potatoes,60,x^3 + 2x^2 − x − 2,(x + 2)(x − 1)(x + 1),3
+Q4,Mashed Potatoes,61,x^3 + 5x^2 − 16x − 80,(x + 5)(x − 4)(x + 4),3
+Q4,Mashed Potatoes,62,x^3 + 4x^2 − 49x − 196,(x + 4)(x − 7)(x + 7),3
+Q4,Mashed Potatoes,63,x^3 + 11x^2 − 81x − 891,(x + 11)(x − 9)(x + 9),3
+Q4,Mashed Potatoes,64,x^3 + 3x^2 − 36x − 108,(x + 3)(x − 6)(x + 6),3
+Q4,Mashed Potatoes,65,x^3 + 5x^2 − 64x − 320,(x + 5)(x − 8)(x + 8),3
+Q4,Mashed Potatoes,66,x^3 + 7x^2 − 36x − 252,(x + 7)(x − 6)(x + 6),3
+Q4,Mashed Potatoes,67,x^3 + 2x^2 − 64x − 128,(x + 2)(x − 8)(x + 8),3
+Q4,Mashed Potatoes,68,x^3 + 6x^2 − 25x − 150,(x + 6)(x − 5)(x + 5),3
+Q4,Mashed Potatoes,69,x^3 + 7x^2 − x − 7,(x + 7)(x − 1)(x + 1),3
+Q4,Mashed Potatoes,70,x^3 + 11x^2 − 49x − 539,(x + 11)(x − 7)(x + 7),3
+Q4,Mashed Potatoes,71,x^3 + 9x^2 − 64x − 576,(x + 9)(x − 8)(x + 8),3
+Q4,Mashed Potatoes,72,x^3 + 12x^2 − x − 12,(x + 12)(x − 1)(x + 1),3
+Q4,Mashed Potatoes,73,x^3 + 12x^2 − 4x − 48,(x + 12)(x − 2)(x + 2),3
+Q4,Mashed Potatoes,74,x^3 + x^2 − 16x − 16,(x + 1)(x − 4)(x + 4),3
+Q4,Mashed Potatoes,75,x^3 + 5x^2 − 36x − 180,(x + 5)(x − 6)(x + 6),3
+Q4,Mashed Potatoes,76,x^3 + 6x^2 − 4x − 24,(x + 6)(x − 2)(x + 2),3
+Q4,Mashed Potatoes,77,x^3 + 12x^2 − 9x − 108,(x + 12)(x − 3)(x + 3),3
+Q4,Mashed Potatoes,78,x^3 + 8x^2 − 49x − 392,(x + 8)(x − 7)(x + 7),3
+Q4,Mashed Potatoes,79,x^3 + 3x^2 − 81x − 243,(x + 3)(x − 9)(x + 9),3
+Q4,Mashed Potatoes,80,x^3 + 2x^2 − 81x − 162,(x + 2)(x − 9)(x + 9),3
+Q4,Mashed Potatoes,81,x^3 + 6x^2 − 81x − 486,(x + 6)(x − 9)(x + 9),3
+Q4,Mashed Potatoes,82,x^3 + 4x^2 − 81x − 324,(x + 4)(x − 9)(x + 9),3
+Q4,Mashed Potatoes,83,x^3 + 4x^2 − 25x − 100,(x + 4)(x − 5)(x + 5),3
+Q4,Mashed Potatoes,84,x^3 + 5x^2 − x − 5,(x + 5)(x − 1)(x + 1),3
+Q4,Mashed Potatoes,85,x^3 + 12x^2 − 36x − 432,(x + 12)(x − 6)(x + 6),3
+Q4,Mashed Potatoes,86,x^3 + 8x^2 − 16x − 128,(x + 8)(x − 4)(x + 4),3
+Q4,Mashed Potatoes,87,x^3 + 6x^2 − 49x − 294,(x + 6)(x − 7)(x + 7),3
+Q4,Mashed Potatoes,88,x^3 + 6x^2 − 9x − 54,(x + 6)(x − 3)(x + 3),3
+Q4,Mashed Potatoes,89,x^3 + 12x^2 − 49x − 588,(x + 12)(x − 7)(x + 7),3
+Q4,Mashed Potatoes,90,x^3 + 10x^2 − 4x − 40,(x + 10)(x − 2)(x + 2),3
+Q4,Mashed Potatoes,91,x^3 + 7x^2 − 4x − 28,(x + 7)(x − 2)(x + 2),3
+Q4,Mashed Potatoes,92,x^3 + 4x^2 − 36x − 144,(x + 4)(x − 6)(x + 6),3
+Q4,Mashed Potatoes,93,x^3 + x^2 − 64x − 64,(x + 1)(x − 8)(x + 8),3
+Q4,Mashed Potatoes,94,x^3 + 8x^2 − 4x − 32,(x + 8)(x − 2)(x + 2),3
+Q4,Mashed Potatoes,95,x^3 + x^2 − 36x − 36,(x + 1)(x − 6)(x + 6),3
+Q4,Mashed Potatoes,96,x^3 + 10x^2 − 49x − 490,(x + 10)(x − 7)(x + 7),3
+Q4,Mashed Potatoes,97,x^3 + 7x^2 − 64x − 448,(x + 7)(x − 8)(x + 8),3
+Q4,Mashed Potatoes,98,x^3 + 8x^2 − 81x − 648,(x + 8)(x − 9)(x + 9),3
+Q4,Mashed Potatoes,99,x^3 + 4x^2 − x − 4,(x + 4)(x − 1)(x + 1),3
+Q5,Green Bean Casserole,1,x^3 − 2x^2 − 9x + 18,(x − 2)(x − 3)(x + 3),3
+Q5,Green Bean Casserole,2,x^3 − 10x^2 − 16x + 160,(x − 10)(x − 4)(x + 4),3
+Q5,Green Bean Casserole,3,x^3 − 6x^2 − 81x + 486,(x − 6)(x − 9)(x + 9),3
+Q5,Green Bean Casserole,4,x^3 − 9x^2 − 49x + 441,(x − 9)(x − 7)(x + 7),3
+Q5,Green Bean Casserole,5,x^3 − 2x^2 − 16x + 32,(x − 2)(x − 4)(x + 4),3
+Q5,Green Bean Casserole,6,x^3 − 6x^2 − 9x + 54,(x − 6)(x − 3)(x + 3),3
+Q5,Green Bean Casserole,7,x^3 − 7x^2 − 9x + 63,(x − 7)(x − 3)(x + 3),3
+Q5,Green Bean Casserole,8,x^3 − 10x^2 − 9x + 90,(x − 10)(x − 3)(x + 3),3
+Q5,Green Bean Casserole,9,x^3 − 5x^2 − 49x + 245,(x − 5)(x − 7)(x + 7),3
+Q5,Green Bean Casserole,10,x^3 − 11x^2 − 36x + 396,(x − 11)(x − 6)(x + 6),3
+Q5,Green Bean Casserole,11,x^3 − 4x^2 − 9x + 36,(x − 4)(x − 3)(x + 3),3
+Q5,Green Bean Casserole,12,x^3 − 12x^2 − 16x + 192,(x − 12)(x − 4)(x + 4),3
+Q5,Green Bean Casserole,13,x^3 − 12x^2 − 4x + 48,(x − 12)(x − 2)(x + 2),3
+Q5,Green Bean Casserole,14,x^3 − 12x^2 − 36x + 432,(x − 12)(x − 6)(x + 6),3
+Q5,Green Bean Casserole,15,x^3 − 2x^2 − 64x + 128,(x − 2)(x − 8)(x + 8),3
+Q5,Green Bean Casserole,16,x^3 − 10x^2 − 4x + 40,(x − 10)(x − 2)(x + 2),3
+Q5,Green Bean Casserole,17,x^3 − 6x^2 − 25x + 150,(x − 6)(x − 5)(x + 5),3
+Q5,Green Bean Casserole,18,x^3 − 4x^2 − 4x + 16,(x − 4)(x − 2)(x + 2),3
+Q5,Green Bean Casserole,19,x^3 − 9x^2 − 4x + 36,(x − 9)(x − 2)(x + 2),3
+Q5,Green Bean Casserole,20,x^3 − x^2 − 9x + 9,(x − 1)(x − 3)(x + 3),3
+Q5,Green Bean Casserole,21,x^3 − 11x^2 − 25x + 275,(x − 11)(x − 5)(x + 5),3
+Q5,Green Bean Casserole,22,x^3 − 2x^2 − 36x + 72,(x − 2)(x − 6)(x + 6),3
+Q5,Green Bean Casserole,23,x^3 − 10x^2 − 64x + 640,(x − 10)(x − 8)(x + 8),3
+Q5,Green Bean Casserole,24,x^3 − 8x^2 − 16x + 128,(x − 8)(x − 4)(x + 4),3
+Q5,Green Bean Casserole,25,x^3 − 12x^2 − 25x + 300,(x − 12)(x − 5)(x + 5),3
+Q5,Green Bean Casserole,26,x^3 − 5x^2 − 64x + 320,(x − 5)(x − 8)(x + 8),3
+Q5,Green Bean Casserole,27,x^3 − 8x^2 − 4x + 32,(x − 8)(x − 2)(x + 2),3
+Q5,Green Bean Casserole,28,x^3 − 6x^2 − 4x + 24,(x − 6)(x − 2)(x + 2),3
+Q5,Green Bean Casserole,29,x^3 − 7x^2 − x + 7,(x − 7)(x − 1)(x + 1),3
+Q5,Green Bean Casserole,30,x^3 − 7x^2 − 4x + 28,(x − 7)(x − 2)(x + 2),3
+Q5,Green Bean Casserole,31,x^3 − x^2 − 16x + 16,(x − 1)(x − 4)(x + 4),3
+Q5,Green Bean Casserole,32,x^3 − 12x^2 − 64x + 768,(x − 12)(x − 8)(x + 8),3
+Q5,Green Bean Casserole,33,x^3 − 4x^2 − 64x + 256,(x − 4)(x − 8)(x + 8),3
+Q5,Green Bean Casserole,34,x^3 − 3x^2 − 25x + 75,(x − 3)(x − 5)(x + 5),3
+Q5,Green Bean Casserole,35,x^3 − x^2 − 25x + 25,(x − 1)(x − 5)(x + 5),3
+Q5,Green Bean Casserole,36,x^3 − 7x^2 − 36x + 252,(x − 7)(x − 6)(x + 6),3
+Q5,Green Bean Casserole,37,x^3 − 9x^2 − 16x + 144,(x − 9)(x − 4)(x + 4),3
+Q5,Green Bean Casserole,38,x^3 − 12x^2 − 49x + 588,(x − 12)(x − 7)(x + 7),3
+Q5,Green Bean Casserole,39,x^3 − 9x^2 − x + 9,(x − 9)(x − 1)(x + 1),3
+Q5,Green Bean Casserole,40,x^3 − 11x^2 − 81x + 891,(x − 11)(x − 9)(x + 9),3
+Q5,Green Bean Casserole,41,x^3 − 8x^2 − 49x + 392,(x − 8)(x − 7)(x + 7),3
+Q5,Green Bean Casserole,42,x^3 − 9x^2 − 9x + 81,(x − 9)(x − 3)(x + 3),3
+Q5,Green Bean Casserole,43,x^3 − 2x^2 − 25x + 50,(x − 2)(x − 5)(x + 5),3
+Q5,Green Bean Casserole,44,x^3 − 8x^2 − 25x + 200,(x − 8)(x − 5)(x + 5),3
+Q5,Green Bean Casserole,45,x^3 − x^2 − 4x + 4,(x − 1)(x − 2)(x + 2),3
+Q5,Green Bean Casserole,46,x^3 − 3x^2 − 4x + 12,(x − 3)(x − 2)(x + 2),3
+Q5,Green Bean Casserole,47,x^3 − 7x^2 − 16x + 112,(x − 7)(x − 4)(x + 4),3
+Q5,Green Bean Casserole,48,x^3 − 3x^2 − 64x + 192,(x − 3)(x − 8)(x + 8),3
+Q5,Green Bean Casserole,49,x^3 − 10x^2 − 25x + 250,(x − 10)(x − 5)(x + 5),3
+Q5,Green Bean Casserole,50,x^3 − 11x^2 − 49x + 539,(x − 11)(x − 7)(x + 7),3
+Q5,Green Bean Casserole,51,x^3 − 6x^2 − x + 6,(x − 6)(x − 1)(x + 1),3
+Q5,Green Bean Casserole,52,x^3 − x^2 − 81x + 81,(x − 1)(x − 9)(x + 9),3
+Q5,Green Bean Casserole,53,x^3 − 12x^2 − x + 12,(x − 12)(x − 1)(x + 1),3
+Q5,Green Bean Casserole,54,x^3 − 2x^2 − x + 2,(x − 2)(x − 1)(x + 1),3
+Q5,Green Bean Casserole,55,x^3 − 11x^2 − 64x + 704,(x − 11)(x − 8)(x + 8),3
+Q5,Green Bean Casserole,56,x^3 − 5x^2 − 4x + 20,(x − 5)(x − 2)(x + 2),3
+Q5,Green Bean Casserole,57,x^3 − 3x^2 − 81x + 243,(x − 3)(x − 9)(x + 9),3
+Q5,Green Bean Casserole,58,x^3 − 4x^2 − 81x + 324,(x − 4)(x − 9)(x + 9),3
+Q5,Green Bean Casserole,59,x^3 − 7x^2 − 25x + 175,(x − 7)(x − 5)(x + 5),3
+Q5,Green Bean Casserole,60,x^3 − 8x^2 − 36x + 288,(x − 8)(x − 6)(x + 6),3
+Q5,Green Bean Casserole,61,x^3 − 4x^2 − 49x + 196,(x − 4)(x − 7)(x + 7),3
+Q5,Green Bean Casserole,62,x^3 − 3x^2 − 16x + 48,(x − 3)(x − 4)(x + 4),3
+Q5,Green Bean Casserole,63,x^3 − 8x^2 − x + 8,(x − 8)(x − 1)(x + 1),3
+Q5,Green Bean Casserole,64,x^3 − 9x^2 − 36x + 324,(x − 9)(x − 6)(x + 6),3
+Q5,Green Bean Casserole,65,x^3 − 8x^2 − 81x + 648,(x − 8)(x − 9)(x + 9),3
+Q5,Green Bean Casserole,66,x^3 − 4x^2 − 25x + 100,(x − 4)(x − 5)(x + 5),3
+Q5,Green Bean Casserole,67,x^3 − 11x^2 − 16x + 176,(x − 11)(x − 4)(x + 4),3
+Q5,Green Bean Casserole,68,x^3 − 7x^2 − 64x + 448,(x − 7)(x − 8)(x + 8),3
+Q5,Green Bean Casserole,69,x^3 − 3x^2 − 36x + 108,(x − 3)(x − 6)(x + 6),3
+Q5,Green Bean Casserole,70,x^3 − 3x^2 − x + 3,(x − 3)(x − 1)(x + 1),3
+Q5,Green Bean Casserole,71,x^3 − 5x^2 − 36x + 180,(x − 5)(x − 6)(x + 6),3
+Q5,Green Bean Casserole,72,x^3 − 11x^2 − x + 11,(x − 11)(x − 1)(x + 1),3
+Q5,Green Bean Casserole,73,x^3 − 10x^2 − 81x + 810,(x − 10)(x − 9)(x + 9),3
+Q5,Green Bean Casserole,74,x^3 − 5x^2 − 16x + 80,(x − 5)(x − 4)(x + 4),3
+Q5,Green Bean Casserole,75,x^3 − 6x^2 − 49x + 294,(x − 6)(x − 7)(x + 7),3
+Q5,Green Bean Casserole,76,x^3 − 12x^2 − 9x + 108,(x − 12)(x − 3)(x + 3),3
+Q5,Green Bean Casserole,77,x^3 − 8x^2 − 9x + 72,(x − 8)(x − 3)(x + 3),3
+Q5,Green Bean Casserole,78,x^3 − 4x^2 − 36x + 144,(x − 4)(x − 6)(x + 6),3
+Q5,Green Bean Casserole,79,x^3 − 10x^2 − 36x + 360,(x − 10)(x − 6)(x + 6),3
+Q5,Green Bean Casserole,80,x^3 − x^2 − 64x + 64,(x − 1)(x − 8)(x + 8),3
+Q5,Green Bean Casserole,81,x^3 − 11x^2 − 9x + 99,(x − 11)(x − 3)(x + 3),3
+Q5,Green Bean Casserole,82,x^3 − 5x^2 − x + 5,(x − 5)(x − 1)(x + 1),3
+Q5,Green Bean Casserole,83,x^3 − 5x^2 − 81x + 405,(x − 5)(x − 9)(x + 9),3
+Q5,Green Bean Casserole,84,x^3 − 9x^2 − 64x + 576,(x − 9)(x − 8)(x + 8),3
+Q5,Green Bean Casserole,85,x^3 − 2x^2 − 49x + 98,(x − 2)(x − 7)(x + 7),3
+Q5,Green Bean Casserole,86,x^3 − 7x^2 − 81x + 567,(x − 7)(x − 9)(x + 9),3
+Q5,Green Bean Casserole,87,x^3 − 6x^2 − 16x + 96,(x − 6)(x − 4)(x + 4),3
+Q5,Green Bean Casserole,88,x^3 − 2x^2 − 81x + 162,(x − 2)(x − 9)(x + 9),3
+Q5,Green Bean Casserole,89,x^3 − x^2 − 49x + 49,(x − 1)(x − 7)(x + 7),3
+Q5,Green Bean Casserole,90,x^3 − 10x^2 − 49x + 490,(x − 10)(x − 7)(x + 7),3
+Q5,Green Bean Casserole,91,x^3 − x^2 − 36x + 36,(x − 1)(x − 6)(x + 6),3
+Q5,Green Bean Casserole,92,x^3 − 3x^2 − 49x + 147,(x − 3)(x − 7)(x + 7),3
+Q5,Green Bean Casserole,93,x^3 − 6x^2 − 64x + 384,(x − 6)(x − 8)(x + 8),3
+Q5,Green Bean Casserole,94,x^3 − 5x^2 − 9x + 45,(x − 5)(x − 3)(x + 3),3
+Q5,Green Bean Casserole,95,x^3 − 9x^2 − 25x + 225,(x − 9)(x − 5)(x + 5),3
+Q5,Green Bean Casserole,96,x^3 − 11x^2 − 4x + 44,(x − 11)(x − 2)(x + 2),3
+Q5,Green Bean Casserole,97,x^3 − 12x^2 − 81x + 972,(x − 12)(x − 9)(x + 9),3
+Q5,Green Bean Casserole,98,x^3 − 10x^2 − x + 10,(x − 10)(x − 1)(x + 1),3
+Q5,Green Bean Casserole,99,x^3 − 4x^2 − x + 4,(x − 4)(x − 1)(x + 1),3
+Q6,Turkey Gravy,1,x^4 − 16,(x − 2)(x + 2)(x^2 + 4),3
+Q6,Turkey Gravy,2,16x^4 − 25,(4x^2 − 5)(4x^2 + 5),2
+Q6,Turkey Gravy,3,16x^4 − 121,(4x^2 − 11)(4x^2 + 11),2
+Q6,Turkey Gravy,4,4x^4 − 25,(2x^2 − 5)(2x^2 + 5),2
+Q6,Turkey Gravy,5,4x^4 − 121,(2x^2 − 11)(2x^2 + 11),2
+Q6,Turkey Gravy,6,x^4 − 169,(x^2 − 13)(x^2 + 13),2
+Q6,Turkey Gravy,7,4x^4 − 1,(2x^2 − 1)(2x^2 + 1),2
+Q6,Turkey Gravy,8,x^4 − 100,(x^2 − 10)(x^2 + 10),2
+Q6,Turkey Gravy,9,81x^4 − 16,(3x − 2)(3x + 2)(9x^2 + 4),3
+Q6,Turkey Gravy,10,4x^4 − 9,(2x^2 − 3)(2x^2 + 3),2
+Q6,Turkey Gravy,11,25x^4 − 144,(5x^2 − 12)(5x^2 + 12),2
+Q6,Turkey Gravy,12,25x^4 − 1,(5x^2 − 1)(5x^2 + 1),2
+Q6,Turkey Gravy,13,x^4 − 196,(x^2 − 14)(x^2 + 14),2
+Q6,Turkey Gravy,14,9x^4 − 49,(3x^2 − 7)(3x^2 + 7),2
+Q6,Turkey Gravy,15,81x^4 − 625,(3x − 5)(3x + 5)(9x^2 + 25),3
+Q6,Turkey Gravy,16,9x^4 − 16,(3x^2 − 4)(3x^2 + 4),2
+Q6,Turkey Gravy,17,16x^4 − 9,(4x^2 − 3)(4x^2 + 3),2
+Q6,Turkey Gravy,18,9x^4 − 289,(3x^2 − 17)(3x^2 + 17),2
+Q6,Turkey Gravy,19,9x^4 − 361,(3x^2 − 19)(3x^2 + 19),2
+Q6,Turkey Gravy,20,9x^4 − 121,(3x^2 − 11)(3x^2 + 11),2
+Q6,Turkey Gravy,21,25x^4 − 81,(5x^2 − 9)(5x^2 + 9),2
+Q6,Turkey Gravy,22,x^4 − 4,(x^2 − 2)(x^2 + 2),2
+Q6,Turkey Gravy,23,4x^4 − 225,(2x^2 − 15)(2x^2 + 15),2
+Q6,Turkey Gravy,24,x^4 − 25,(x^2 − 5)(x^2 + 5),2
+Q6,Turkey Gravy,25,36x^4 − 1,(6x^2 − 1)(6x^2 + 1),2
+Q6,Turkey Gravy,26,16x^4 − 169,(4x^2 − 13)(4x^2 + 13),2
+Q6,Turkey Gravy,27,16x^4 − 625,(2x − 5)(2x + 5)(4x^2 + 25),3
+Q6,Turkey Gravy,28,x^4 − 361,(x^2 − 19)(x^2 + 19),2
+Q6,Turkey Gravy,29,x^4 − 9,(x^2 − 3)(x^2 + 3),2
+Q6,Turkey Gravy,30,4x^4 − 169,(2x^2 − 13)(2x^2 + 13),2
+Q6,Turkey Gravy,31,x^4 − 1296,(x − 6)(x + 6)(x^2 + 36),3
+Q6,Turkey Gravy,32,36x^4 − 169,(6x^2 − 13)(6x^2 + 13),2
+Q6,Turkey Gravy,33,25x^4 − 4,(5x^2 − 2)(5x^2 + 2),2
+Q6,Turkey Gravy,34,x^4 − 49,(x^2 − 7)(x^2 + 7),2
+Q6,Turkey Gravy,35,9x^4 − 25,(3x^2 − 5)(3x^2 + 5),2
+Q6,Turkey Gravy,36,16x^4 − 81,(2x − 3)(2x + 3)(4x^2 + 9),3
+Q6,Turkey Gravy,37,25x^4 − 9,(5x^2 − 3)(5x^2 + 3),2
+Q6,Turkey Gravy,38,x^4 − 324,(x^2 − 18)(x^2 + 18),2
+Q6,Turkey Gravy,39,x^4 − 225,(x^2 − 15)(x^2 + 15),2
+Q6,Turkey Gravy,40,x^4 − 36,(x^2 − 6)(x^2 + 6),2
+Q6,Turkey Gravy,41,9x^4 − 1,(3x^2 − 1)(3x^2 + 1),2
+Q6,Turkey Gravy,42,16x^4 − 1,(2x − 1)(2x + 1)(4x^2 + 1),3
+Q6,Turkey Gravy,43,x^4 − 289,(x^2 − 17)(x^2 + 17),2
+Q6,Turkey Gravy,44,x^4 − 1,(x − 1)(x + 1)(x^2 + 1),3
+Q6,Turkey Gravy,45,x^4 − 64,(x^2 − 8)(x^2 + 8),2
+Q6,Turkey Gravy,46,9x^4 − 400,(3x^2 − 20)(3x^2 + 20),2
+Q6,Turkey Gravy,47,25x^4 − 16,(5x^2 − 4)(5x^2 + 4),2
+Q6,Turkey Gravy,48,9x^4 − 256,(3x^2 − 16)(3x^2 + 16),2
+Q6,Turkey Gravy,49,x^4 − 256,(x − 4)(x + 4)(x^2 + 16),3
+Q6,Turkey Gravy,50,25x^4 − 64,(5x^2 − 8)(5x^2 + 8),2
+Q6,Turkey Gravy,51,4x^4 − 361,(2x^2 − 19)(2x^2 + 19),2
+Q6,Turkey Gravy,52,16x^4 − 49,(4x^2 − 7)(4x^2 + 7),2
+Q6,Turkey Gravy,53,25x^4 − 49,(5x^2 − 7)(5x^2 + 7),2
+Q6,Turkey Gravy,54,9x^4 − 100,(3x^2 − 10)(3x^2 + 10),2
+Q6,Turkey Gravy,55,4x^4 − 49,(2x^2 − 7)(2x^2 + 7),2
+Q6,Turkey Gravy,56,16x^4 − 225,(4x^2 − 15)(4x^2 + 15),2
+Q6,Turkey Gravy,57,25x^4 − 121,(5x^2 − 11)(5x^2 + 11),2
+Q6,Turkey Gravy,58,81x^4 − 1,(3x − 1)(3x + 1)(9x^2 + 1),3
+Q6,Turkey Gravy,59,x^4 − 144,(x^2 − 12)(x^2 + 12),2
+Q6,Turkey Gravy,60,81x^4 − 256,(3x − 4)(3x + 4)(9x^2 + 16),3
+Q6,Turkey Gravy,61,36x^4 − 121,(6x^2 − 11)(6x^2 + 11),2
+Q6,Turkey Gravy,62,81x^4 − 625,(3x − 5)(3x + 5)(9x^2 + 25),3
+Q6,Turkey Gravy,63,4x^4 − 81,(2x^2 − 9)(2x^2 + 9),2
+Q6,Turkey Gravy,64,9x^4 − 169,(3x^2 − 13)(3x^2 + 13),2
+Q6,Turkey Gravy,65,9x^4 − 4,(3x^2 − 2)(3x^2 + 2),2
+Q6,Turkey Gravy,66,25x^4 − 36,(5x^2 − 6)(5x^2 + 6),2
+Q6,Turkey Gravy,67,9x^4 − 64,(3x^2 − 8)(3x^2 + 8),2
+Q6,Turkey Gravy,68,25x^4 − 196,(5x^2 − 14)(5x^2 + 14),2
+Q6,Turkey Gravy,69,9x^4 − 196,(3x^2 − 14)(3x^2 + 14),2
+Q6,Turkey Gravy,70,x^4 − 121,(x^2 − 11)(x^2 + 11),2
+Q6,Turkey Gravy,71,36x^4 − 49,(6x^2 − 7)(6x^2 + 7),2
+Q6,Turkey Gravy,72,x^4 − 81,(x − 3)(x + 3)(x^2 + 9),3
+Q6,Turkey Gravy,73,4x^4 − 289,(2x^2 − 17)(2x^2 + 17),2
+Q6,Turkey Gravy,74,36x^4 − 25,(6x^2 − 5)(6x^2 + 5),2
+Q6,Turkey Gravy,75,x^4 − 625,(x − 5)(x + 5)(x^2 + 25),3
+Q6,Turkey Gravy,76,25x^4 − 169,(5x^2 − 13)(5x^2 + 13),2
+Q6,Turkey Gravy,77,x^4 − 400,(x^2 − 20)(x^2 + 20),2
+Q7,Mac & Cheese,1,x^4 + 3x^2 − 10,(x^2 + 5)(x^2 − 2),2
+Q7,Mac & Cheese,2,x^4 − x^2 − 6,(x^2 + 2)(x^2 − 3),2
+Q7,Mac & Cheese,3,x^4 − x^2 − 56,(x^2 + 7)(x^2 − 8),2
+Q7,Mac & Cheese,4,x^4 + 9x^2 − 22,(x^2 + 11)(x^2 − 2),2
+Q7,Mac & Cheese,5,x^4 − 2x^2 − 35,(x^2 + 5)(x^2 − 7),2
+Q7,Mac & Cheese,6,x^4 + 8x^2 − 33,(x^2 + 11)(x^2 − 3),2
+Q7,Mac & Cheese,7,x^4 − 7x^2 − 30,(x^2 + 3)(x^2 − 10),2
+Q7,Mac & Cheese,8,x^4 − 2x^2 − 3,(x^2 + 1)(x^2 − 3),2
+Q7,Mac & Cheese,9,x^4 − 7x^2 − 44,(x^2 + 4)(x^2 − 11),2
+Q7,Mac & Cheese,10,x^4 − x^2 − 20,(x^2 + 4)(x^2 − 5),2
+Q7,Mac & Cheese,11,x^4 + 3x^2 − 40,(x^2 + 8)(x^2 − 5),2
+Q7,Mac & Cheese,12,x^4 + 6x^2 − 55,(x^2 + 11)(x^2 − 5),2
+Q7,Mac & Cheese,13,x^4 + 7x^2 − 30,(x^2 + 10)(x^2 − 3),2
+Q7,Mac & Cheese,14,x^4 − 4x^2 − 5,(x^2 + 1)(x^2 − 5),2
+Q7,Mac & Cheese,15,x^4 − 3x^2 − 10,(x^2 + 2)(x^2 − 5),2
+Q7,Mac & Cheese,16,x^4 − 4x^2 − 32,(x^2 + 4)(x^2 − 8),2
+Q7,Mac & Cheese,17,x^4 + 3x^2 − 18,(x^2 + 6)(x^2 − 3),2
+Q7,Mac & Cheese,18,x^4 + 5x^2 − 84,(x^2 + 12)(x^2 − 7),2
+Q7,Mac & Cheese,19,x^4 − 5x^2 − 6,(x^2 + 1)(x^2 − 6),2
+Q7,Mac & Cheese,20,x^4 − 3x^2 − 108,(x^2 + 9)(x^2 − 12),2
+Q7,Mac & Cheese,21,x^4 − 2x^2 − 120,(x^2 + 10)(x^2 − 12),2
+Q7,Mac & Cheese,22,x^4 − x^2 − 30,(x^2 + 5)(x^2 − 6),2
+Q7,Mac & Cheese,23,x^4 + 10x^2 − 24,(x^2 + 12)(x^2 − 2),2
+Q7,Mac & Cheese,24,x^4 − x^2 − 110,(x^2 + 10)(x^2 − 11),2
+Q7,Mac & Cheese,25,x^4 − 3x^2 − 70,(x^2 + 7)(x^2 − 10),2
+Q7,Mac & Cheese,26,x^4 − 5x^2 − 66,(x^2 + 6)(x^2 − 11),2
+Q7,Mac & Cheese,27,x^4 + 6x^2 − 16,(x^2 + 8)(x^2 − 2),2
+Q7,Mac & Cheese,28,x^4 − 6x^2 − 16,(x^2 + 2)(x^2 − 8),2
+Q7,Mac & Cheese,29,x^4 − 8x^2 − 20,(x^2 + 2)(x^2 − 10),2
+Q7,Mac & Cheese,30,x^4 − 9x^2 − 36,(x^2 + 3)(x^2 − 12),2
+Q7,Mac & Cheese,31,x^4 + 4x^2 − 96,(x^2 + 12)(x^2 − 8),2
+Q7,Mac & Cheese,32,x^4 − x^2 − 90,(x^2 + 9)(x^2 − 10),2
+Q7,Mac & Cheese,33,x^4 + 2x^2 − 35,(x^2 + 7)(x^2 − 5),2
+Q7,Mac & Cheese,34,x^4 − 3x^2 − 28,(x^2 + 4)(x^2 − 7),2
+Q7,Mac & Cheese,35,x^4 + x^2 − 30,(x^2 + 6)(x^2 − 5),2
+Q7,Mac & Cheese,36,x^4 − 3x^2 − 18,(x^2 + 3)(x^2 − 6),2
+Q7,Mac & Cheese,37,x^4 − 2x^2 − 80,(x^2 + 8)(x^2 − 10),2
+Q7,Mac & Cheese,38,x^4 − 4x^2 − 77,(x^2 + 7)(x^2 − 11),2
+Q7,Mac & Cheese,39,x^4 − 2x^2 − 99,(x^2 + 9)(x^2 − 11),2
+Q7,Mac & Cheese,40,x^4 − x^2 − 2,(x^2 + 1)(x^2 − 2),2
+Q7,Mac & Cheese,41,x^4 − x^2 − 42,(x^2 + 6)(x^2 − 7),2
+Q7,Mac & Cheese,42,x^4 + 2x^2 − 48,(x^2 + 8)(x^2 − 6),2
+Q7,Mac & Cheese,43,x^4 + 7x^2 − 18,(x^2 + 9)(x^2 − 2),2
+Q7,Mac & Cheese,44,x^4 − 5x^2 − 24,(x^2 + 3)(x^2 − 8),2
+Q7,Mac & Cheese,45,x^4 + 2x^2 − 8,(x^2 + 4)(x^2 − 2),2
+Q7,Mac & Cheese,46,x^4 + 4x^2 − 12,(x^2 + 6)(x^2 − 2),2
+Q7,Mac & Cheese,47,x^4 − 4x^2 − 12,(x^2 + 2)(x^2 − 6),2
+Q7,Mac & Cheese,48,x^4 + x^2 − 42,(x^2 + 7)(x^2 − 6),2
+Q7,Mac & Cheese,49,x^4 + x^2 − 132,(x^2 + 12)(x^2 − 11),2
+Q7,Mac & Cheese,50,x^4 − 6x^2 − 72,(x^2 + 6)(x^2 − 12),2
+Q7,Mac & Cheese,51,x^4 − 2x^2 − 15,(x^2 + 3)(x^2 − 5),2
+Q7,Mac & Cheese,52,x^4 + 3x^2 − 70,(x^2 + 10)(x^2 − 7),2
+Q7,Mac & Cheese,53,x^4 − 2x^2 − 48,(x^2 + 6)(x^2 − 8),2
+Q7,Mac & Cheese,54,x^4 + x^2 − 72,(x^2 + 9)(x^2 − 8),2
+Q7,Mac & Cheese,55,x^4 − 10x^2 − 24,(x^2 + 2)(x^2 − 12),2
+Q7,Mac & Cheese,56,x^4 − 6x^2 − 55,(x^2 + 5)(x^2 − 11),2
+Q7,Mac & Cheese,57,x^4 + 4x^2 − 60,(x^2 + 10)(x^2 − 6),2
+Q7,Mac & Cheese,58,x^4 + x^2 − 6,(x^2 + 3)(x^2 − 2),2
+Q7,Mac & Cheese,59,x^4 − 4x^2 − 21,(x^2 + 3)(x^2 − 7),2
+Q7,Mac & Cheese,60,x^4 + 2x^2 − 15,(x^2 + 5)(x^2 − 3),2
+Q7,Mac & Cheese,61,x^4 − 9x^2 − 22,(x^2 + 2)(x^2 − 11),2
+Q7,Mac & Cheese,62,x^4 + 8x^2 − 20,(x^2 + 10)(x^2 − 2),2
+Q7,Mac & Cheese,63,x^4 + 5x^2 − 50,(x^2 + 10)(x^2 − 5),2
+Q7,Mac & Cheese,64,x^4 − 7x^2 − 8,(x^2 + 1)(x^2 − 8),2
+Q7,Mac & Cheese,65,x^4 + 5x^2 − 14,(x^2 + 7)(x^2 − 2),2
+Q7,Mac & Cheese,66,x^4 − 7x^2 − 60,(x^2 + 5)(x^2 − 12),2
+Q7,Mac & Cheese,67,x^4 + 6x^2 − 27,(x^2 + 9)(x^2 − 3),2
+Q7,Mac & Cheese,68,x^4 − 10x^2 − 11,(x^2 + 1)(x^2 − 11),2
+Q7,Mac & Cheese,69,x^4 + 3x^2 − 54,(x^2 + 9)(x^2 − 6),2
+Q7,Mac & Cheese,70,x^4 − 6x^2 − 40,(x^2 + 4)(x^2 − 10),2
+Q7,Mac & Cheese,71,x^4 − 11x^2 − 12,(x^2 + 1)(x^2 − 12),2
+Q7,Mac & Cheese,72,x^4 + 2x^2 − 63,(x^2 + 9)(x^2 − 7),2
+Q7,Mac & Cheese,73,x^4 − 5x^2 − 14,(x^2 + 2)(x^2 − 7),2
+Q7,Mac & Cheese,74,x^4 + x^2 − 12,(x^2 + 4)(x^2 − 3),2
+Q7,Mac & Cheese,75,x^4 + x^2 − 56,(x^2 + 8)(x^2 − 7),2
+Q7,Mac & Cheese,76,x^4 − 5x^2 − 84,(x^2 + 7)(x^2 − 12),2
+Q7,Mac & Cheese,77,x^4 − x^2 − 132,(x^2 + 11)(x^2 − 12),2
+Q7,Mac & Cheese,78,x^4 + 7x^2 − 60,(x^2 + 12)(x^2 − 5),2
+Q7,Mac & Cheese,79,x^4 − 2x^2 − 24,(x^2 + 4)(x^2 − 6),2
+Q7,Mac & Cheese,80,x^4 + 4x^2 − 45,(x^2 + 9)(x^2 − 5),2
+Q7,Mac & Cheese,81,x^4 − 3x^2 − 40,(x^2 + 5)(x^2 − 8),2
+Q7,Mac & Cheese,82,x^4 + 9x^2 − 36,(x^2 + 12)(x^2 − 3),2
+Q7,Mac & Cheese,83,x^4 − 3x^2 − 88,(x^2 + 8)(x^2 − 11),2
+Q7,Mac & Cheese,84,x^4 − 4x^2 − 96,(x^2 + 8)(x^2 − 12),2
+Q7,Mac & Cheese,85,x^4 + 4x^2 − 21,(x^2 + 7)(x^2 − 3),2
+Q7,Mac & Cheese,86,x^4 + 4x^2 − 77,(x^2 + 11)(x^2 − 7),2
+Q7,Mac & Cheese,87,x^4 − 5x^2 − 50,(x^2 + 5)(x^2 − 10),2
+Q7,Mac & Cheese,88,x^4 − 4x^2 − 60,(x^2 + 6)(x^2 − 10),2
+Q7,Mac & Cheese,89,x^4 + 5x^2 − 66,(x^2 + 11)(x^2 − 6),2
+Q7,Mac & Cheese,90,x^4 + 3x^2 − 88,(x^2 + 11)(x^2 − 8),2
+Q7,Mac & Cheese,91,x^4 − 9x^2 − 10,(x^2 + 1)(x^2 − 10),2
+Q7,Mac & Cheese,92,x^4 + 6x^2 − 72,(x^2 + 12)(x^2 − 6),2
+Q7,Mac & Cheese,93,x^4 − 8x^2 − 48,(x^2 + 4)(x^2 − 12),2
+Q7,Mac & Cheese,94,x^4 + 2x^2 − 80,(x^2 + 10)(x^2 − 8),2
+Q7,Mac & Cheese,95,x^4 − 6x^2 − 7,(x^2 + 1)(x^2 − 7),2
+Q7,Mac & Cheese,96,x^4 + 2x^2 − 120,(x^2 + 12)(x^2 − 10),2
+Q7,Mac & Cheese,97,x^4 + 5x^2 − 24,(x^2 + 8)(x^2 − 3),2
+Q7,Mac & Cheese,98,x^4 + x^2 − 110,(x^2 + 11)(x^2 − 10),2
+Q7,Mac & Cheese,99,x^4 − 8x^2 − 33,(x^2 + 3)(x^2 − 11),2
+Q8,Stuffing,1,2x^3 + 3x^2 − 8x − 12,(2x + 3)(x − 2)(x + 2),3
+Q8,Stuffing,2,3x^3 + 5x^2 − 75x − 125,(3x + 5)(x − 5)(x + 5),3
+Q8,Stuffing,3,3x^3 − 4x^2 − 27x + 36,(3x − 4)(x − 3)(x + 3),3
+Q8,Stuffing,4,4x^3 + 3x^2 − 4x − 3,(4x + 3)(x − 1)(x + 1),3
+Q8,Stuffing,5,3x^3 + 5x^2 − 48x − 80,(3x + 5)(x − 4)(x + 4),3
+Q8,Stuffing,6,4x^3 + 7x^2 − 16x − 28,(4x + 7)(x − 2)(x + 2),3
+Q8,Stuffing,7,2x^3 + 3x^2 − 2x − 3,(2x + 3)(x − 1)(x + 1),3
+Q8,Stuffing,8,4x^3 − 7x^2 − 144x + 252,(4x − 7)(x − 6)(x + 6),3
+Q8,Stuffing,9,4x^3 − 5x^2 − 144x + 180,(4x − 5)(x − 6)(x + 6),3
+Q8,Stuffing,10,5x^3 − 2x^2 − 80x + 32,(5x − 2)(x − 4)(x + 4),3
+Q8,Stuffing,11,2x^3 − 5x^2 − 8x + 20,(2x − 5)(x − 2)(x + 2),3
+Q8,Stuffing,12,3x^3 − 7x^2 − 48x + 112,(3x − 7)(x − 4)(x + 4),3
+Q8,Stuffing,13,3x^3 + 7x^2 − 48x − 112,(3x + 7)(x − 4)(x + 4),3
+Q8,Stuffing,14,2x^3 + 7x^2 − 50x − 175,(2x + 7)(x − 5)(x + 5),3
+Q8,Stuffing,15,4x^3 − 3x^2 − 16x + 12,(4x − 3)(x − 2)(x + 2),3
+Q8,Stuffing,16,2x^3 + 7x^2 − 8x − 28,(2x + 7)(x − 2)(x + 2),3
+Q8,Stuffing,17,4x^3 + 5x^2 − 36x − 45,(4x + 5)(x − 3)(x + 3),3
+Q8,Stuffing,18,3x^3 + 7x^2 − 75x − 175,(3x + 7)(x − 5)(x + 5),3
+Q8,Stuffing,19,5x^3 − 7x^2 − 45x + 63,(5x − 7)(x − 3)(x + 3),3
+Q8,Stuffing,20,4x^3 − x^2 − 144x + 36,(4x − 1)(x − 6)(x + 6),3
+Q8,Stuffing,21,3x^3 + 4x^2 − 27x − 36,(3x + 4)(x − 3)(x + 3),3
+Q8,Stuffing,22,3x^3 + 4x^2 − 75x − 100,(3x + 4)(x − 5)(x + 5),3
+Q8,Stuffing,23,5x^3 − x^2 − 180x + 36,(5x − 1)(x − 6)(x + 6),3
+Q8,Stuffing,24,5x^3 − 2x^2 − 45x + 18,(5x − 2)(x − 3)(x + 3),3
+Q8,Stuffing,25,5x^3 − 4x^2 − 20x + 16,(5x − 4)(x − 2)(x + 2),3
+Q8,Stuffing,26,2x^3 + 7x^2 − 18x − 63,(2x + 7)(x − 3)(x + 3),3
+Q8,Stuffing,27,5x^3 − 2x^2 − 20x + 8,(5x − 2)(x − 2)(x + 2),3
+Q8,Stuffing,28,5x^3 − x^2 − 45x + 9,(5x − 1)(x − 3)(x + 3),3
+Q8,Stuffing,29,2x^3 − 7x^2 − 18x + 63,(2x − 7)(x − 3)(x + 3),3
+Q8,Stuffing,30,3x^3 − x^2 − 12x + 4,(3x − 1)(x − 2)(x + 2),3
+Q8,Stuffing,31,4x^3 + 7x^2 − 64x − 112,(4x + 7)(x − 4)(x + 4),3
+Q8,Stuffing,32,5x^3 + 3x^2 − 125x − 75,(5x + 3)(x − 5)(x + 5),3
+Q8,Stuffing,33,3x^3 − x^2 − 108x + 36,(3x − 1)(x − 6)(x + 6),3
+Q8,Stuffing,34,5x^3 − 3x^2 − 20x + 12,(5x − 3)(x − 2)(x + 2),3
+Q8,Stuffing,35,5x^3 + 6x^2 − 125x − 150,(5x + 6)(x − 5)(x + 5),3
+Q8,Stuffing,36,5x^3 + 2x^2 − 80x − 32,(5x + 2)(x − 4)(x + 4),3
+Q8,Stuffing,37,3x^3 + 5x^2 − 27x − 45,(3x + 5)(x − 3)(x + 3),3
+Q8,Stuffing,38,3x^3 + 4x^2 − 108x − 144,(3x + 4)(x − 6)(x + 6),3
+Q8,Stuffing,39,4x^3 + 5x^2 − 100x − 125,(4x + 5)(x − 5)(x + 5),3
+Q8,Stuffing,40,2x^3 + x^2 − 8x − 4,(2x + 1)(x − 2)(x + 2),3
+Q8,Stuffing,41,5x^3 + 3x^2 − 45x − 27,(5x + 3)(x − 3)(x + 3),3
+Q8,Stuffing,42,5x^3 + 4x^2 − 180x − 144,(5x + 4)(x − 6)(x + 6),3
+Q8,Stuffing,43,3x^3 − 4x^2 − 75x + 100,(3x − 4)(x − 5)(x + 5),3
+Q8,Stuffing,44,5x^3 + 2x^2 − 180x − 72,(5x + 2)(x − 6)(x + 6),3
+Q8,Stuffing,45,3x^3 − 5x^2 − 108x + 180,(3x − 5)(x − 6)(x + 6),3
+Q8,Stuffing,46,4x^3 + x^2 − 64x − 16,(4x + 1)(x − 4)(x + 4),3
+Q8,Stuffing,47,3x^3 + 7x^2 − 12x − 28,(3x + 7)(x − 2)(x + 2),3
+Q8,Stuffing,48,3x^3 + 7x^2 − 27x − 63,(3x + 7)(x − 3)(x + 3),3
+Q8,Stuffing,49,4x^3 + 7x^2 − 36x − 63,(4x + 7)(x − 3)(x + 3),3
+Q8,Stuffing,50,3x^3 − x^2 − 27x + 9,(3x − 1)(x − 3)(x + 3),3
+Q8,Stuffing,51,2x^3 + 5x^2 − 72x − 180,(2x + 5)(x − 6)(x + 6),3
+Q8,Stuffing,52,4x^3 − 3x^2 − 100x + 75,(4x − 3)(x − 5)(x + 5),3
+Q8,Stuffing,53,4x^3 + 3x^2 − 36x − 27,(4x + 3)(x − 3)(x + 3),3
+Q8,Stuffing,54,4x^3 + x^2 − 4x − 1,(4x + 1)(x − 1)(x + 1),3
+Q8,Stuffing,55,3x^3 + x^2 − 27x − 9,(3x + 1)(x − 3)(x + 3),3
+Q8,Stuffing,56,3x^3 + 2x^2 − 48x − 32,(3x + 2)(x − 4)(x + 4),3
+Q8,Stuffing,57,4x^3 − 5x^2 − 100x + 125,(4x − 5)(x − 5)(x + 5),3
+Q8,Stuffing,58,3x^3 − 5x^2 − 75x + 125,(3x − 5)(x − 5)(x + 5),3
+Q8,Stuffing,59,4x^3 − 3x^2 − 144x + 108,(4x − 3)(x − 6)(x + 6),3
+Q8,Stuffing,60,2x^3 − x^2 − 2x + 1,(2x − 1)(x − 1)(x + 1),3
+Q8,Stuffing,61,5x^3 − 2x^2 − 180x + 72,(5x − 2)(x − 6)(x + 6),3
+Q8,Stuffing,62,2x^3 − 3x^2 − 2x + 3,(2x − 3)(x − 1)(x + 1),3
+Q8,Stuffing,63,2x^3 − x^2 − 50x + 25,(2x − 1)(x − 5)(x + 5),3
+Q8,Stuffing,64,5x^3 + 3x^2 − 80x − 48,(5x + 3)(x − 4)(x + 4),3
+Q8,Stuffing,65,3x^3 − x^2 − 3x + 1,(3x − 1)(x − 1)(x + 1),3
+Q8,Stuffing,66,2x^3 + 5x^2 − 8x − 20,(2x + 5)(x − 2)(x + 2),3
+Q8,Stuffing,67,2x^3 + x^2 − 18x − 9,(2x + 1)(x − 3)(x + 3),3
+Q8,Stuffing,68,4x^3 − 5x^2 − 36x + 45,(4x − 5)(x − 3)(x + 3),3
+Q8,Stuffing,69,2x^3 − 7x^2 − 72x + 252,(2x − 7)(x − 6)(x + 6),3
+Q8,Stuffing,70,3x^3 − 4x^2 − 3x + 4,(3x − 4)(x − 1)(x + 1),3
+Q8,Stuffing,71,2x^3 + x^2 − 72x − 36,(2x + 1)(x − 6)(x + 6),3
+Q8,Stuffing,72,5x^3 − 7x^2 − 180x + 252,(5x − 7)(x − 6)(x + 6),3
+Q8,Stuffing,73,5x^3 + 2x^2 − 125x − 50,(5x + 2)(x − 5)(x + 5),3
+Q8,Stuffing,74,2x^3 + 5x^2 − 2x − 5,(2x + 5)(x − 1)(x + 1),3
+Q8,Stuffing,75,5x^3 − 3x^2 − 5x + 3,(5x − 3)(x − 1)(x + 1),3
+Q8,Stuffing,76,5x^3 − 6x^2 − 20x + 24,(5x − 6)(x − 2)(x + 2),3
+Q8,Stuffing,77,5x^3 + 7x^2 − 45x − 63,(5x + 7)(x − 3)(x + 3),3
+Q8,Stuffing,78,2x^3 + 3x^2 − 72x − 108,(2x + 3)(x − 6)(x + 6),3
+Q8,Stuffing,79,5x^3 − 6x^2 − 180x + 216,(5x − 6)(x − 6)(x + 6),3
+Q8,Stuffing,80,5x^3 − 6x^2 − 45x + 54,(5x − 6)(x − 3)(x + 3),3
+Q8,Stuffing,81,2x^3 − 3x^2 − 72x + 108,(2x − 3)(x − 6)(x + 6),3
+Q8,Stuffing,82,2x^3 − x^2 − 18x + 9,(2x − 1)(x − 3)(x + 3),3
+Q8,Stuffing,83,3x^3 + 2x^2 − 12x − 8,(3x + 2)(x − 2)(x + 2),3
+Q8,Stuffing,84,5x^3 + 2x^2 − 20x − 8,(5x + 2)(x − 2)(x + 2),3
+Q8,Stuffing,85,4x^3 − 5x^2 − 64x + 80,(4x − 5)(x − 4)(x + 4),3
+Q8,Stuffing,86,5x^3 − 6x^2 − 80x + 96,(5x − 6)(x − 4)(x + 4),3
+Q8,Stuffing,87,5x^3 + x^2 − 20x − 4,(5x + 1)(x − 2)(x + 2),3
+Q8,Stuffing,88,4x^3 + 3x^2 − 64x − 48,(4x + 3)(x − 4)(x + 4),3
+Q8,Stuffing,89,3x^3 + 2x^2 − 3x − 2,(3x + 2)(x − 1)(x + 1),3
+Q8,Stuffing,90,3x^3 + x^2 − 108x − 36,(3x + 1)(x − 6)(x + 6),3
+Q8,Stuffing,91,3x^3 − 7x^2 − 12x + 28,(3x − 7)(x − 2)(x + 2),3
+Q8,Stuffing,92,3x^3 − 5x^2 − 27x + 45,(3x − 5)(x − 3)(x + 3),3
+Q8,Stuffing,93,3x^3 − 2x^2 − 108x + 72,(3x − 2)(x − 6)(x + 6),3
+Q8,Stuffing,94,2x^3 + 7x^2 − 2x − 7,(2x + 7)(x − 1)(x + 1),3
+Q8,Stuffing,95,5x^3 − 2x^2 − 5x + 2,(5x − 2)(x − 1)(x + 1),3
+Q8,Stuffing,96,5x^3 + 4x^2 − 20x − 16,(5x + 4)(x − 2)(x + 2),3
+Q8,Stuffing,97,5x^3 + 6x^2 − 180x − 216,(5x + 6)(x − 6)(x + 6),3
+Q8,Stuffing,98,2x^3 − 3x^2 − 50x + 75,(2x − 3)(x − 5)(x + 5),3
+Q8,Stuffing,99,4x^3 − 7x^2 − 4x + 7,(4x − 7)(x − 1)(x + 1),3
+Q8,Stuffing,100,4x^3 + 3x^2 − 100x − 75,(4x + 3)(x − 5)(x + 5),3
+Q9,Sweet Potato Casserole,1,4x^3 − 12x^2 − x + 3,(x − 3)(2x − 1)(2x + 1),3
+Q9,Sweet Potato Casserole,2,4x^3 − 12x^2 − 9x + 27,(x − 3)(2x − 3)(2x + 3),3
+Q9,Sweet Potato Casserole,3,4x^3 − 4x^2 − x + 1,(x − 1)(2x − 1)(2x + 1),3
+Q9,Sweet Potato Casserole,4,4x^3 − 16x^2 − 9x + 36,(x − 4)(2x − 3)(2x + 3),3
+Q9,Sweet Potato Casserole,5,4x^3 + 24x^2 − 9x − 54,(x + 6)(2x − 3)(2x + 3),3
+Q9,Sweet Potato Casserole,6,9x^3 − 81x^2 − x + 9,(x − 9)(3x − 1)(3x + 1),3
+Q9,Sweet Potato Casserole,7,9x^3 − 54x^2 − 49x + 294,(x − 6)(3x − 7)(3x + 7),3
+Q9,Sweet Potato Casserole,8,9x^3 + 18x^2 − 49x − 98,(x + 2)(3x − 7)(3x + 7),3
+Q9,Sweet Potato Casserole,9,9x^3 + 36x^2 − 16x − 64,(x + 4)(3x − 4)(3x + 4),3
+Q9,Sweet Potato Casserole,10,9x^3 − 45x^2 − 49x + 245,(x − 5)(3x − 7)(3x + 7),3
+Q9,Sweet Potato Casserole,11,4x^3 + 4x^2 − 9x − 9,(x + 1)(2x − 3)(2x + 3),3
+Q9,Sweet Potato Casserole,12,9x^3 − 54x^2 − x + 6,(x − 6)(3x − 1)(3x + 1),3
+Q9,Sweet Potato Casserole,13,4x^3 − 32x^2 − x + 8,(x − 8)(2x − 1)(2x + 1),3
+Q9,Sweet Potato Casserole,14,9x^3 + 27x^2 − 4x − 12,(x + 3)(3x − 2)(3x + 2),3
+Q9,Sweet Potato Casserole,15,9x^3 − 18x^2 − 16x + 32,(x − 2)(3x − 4)(3x + 4),3
+Q9,Sweet Potato Casserole,16,4x^3 + 8x^2 − 49x − 98,(x + 2)(2x − 7)(2x + 7),3
+Q9,Sweet Potato Casserole,17,4x^3 + 24x^2 − x − 6,(x + 6)(2x − 1)(2x + 1),3
+Q9,Sweet Potato Casserole,18,9x^3 − 45x^2 − 16x + 80,(x − 5)(3x − 4)(3x + 4),3
+Q9,Sweet Potato Casserole,19,9x^3 + 36x^2 − 25x − 100,(x + 4)(3x − 5)(3x + 5),3
+Q9,Sweet Potato Casserole,20,4x^3 + 36x^2 − x − 9,(x + 9)(2x − 1)(2x + 1),3
+Q9,Sweet Potato Casserole,21,4x^3 + 8x^2 − 9x − 18,(x + 2)(2x − 3)(2x + 3),3
+Q9,Sweet Potato Casserole,22,4x^3 + 16x^2 − x − 4,(x + 4)(2x − 1)(2x + 1),3
+Q9,Sweet Potato Casserole,23,9x^3 + 27x^2 − x − 3,(x + 3)(3x − 1)(3x + 1),3
+Q9,Sweet Potato Casserole,24,4x^3 + 32x^2 − 25x − 200,(x + 8)(2x − 5)(2x + 5),3
+Q9,Sweet Potato Casserole,25,9x^3 − 9x^2 − 4x + 4,(x − 1)(3x − 2)(3x + 2),3
+Q9,Sweet Potato Casserole,26,9x^3 + 27x^2 − 16x − 48,(x + 3)(3x − 4)(3x + 4),3
+Q9,Sweet Potato Casserole,27,9x^3 − 27x^2 − x + 3,(x − 3)(3x − 1)(3x + 1),3
+Q9,Sweet Potato Casserole,28,4x^3 + 28x^2 − 49x − 343,(x + 7)(2x − 7)(2x + 7),3
+Q9,Sweet Potato Casserole,29,9x^3 + 72x^2 − 25x − 200,(x + 8)(3x − 5)(3x + 5),3
+Q9,Sweet Potato Casserole,30,9x^3 + 36x^2 − x − 4,(x + 4)(3x − 1)(3x + 1),3
+Q9,Sweet Potato Casserole,31,4x^3 − 28x^2 − x + 7,(x − 7)(2x − 1)(2x + 1),3
+Q9,Sweet Potato Casserole,32,4x^3 + 24x^2 − 25x − 150,(x + 6)(2x − 5)(2x + 5),3
+Q9,Sweet Potato Casserole,33,4x^3 + 12x^2 − 9x − 27,(x + 3)(2x − 3)(2x + 3),3
+Q9,Sweet Potato Casserole,34,9x^3 − 18x^2 − 25x + 50,(x − 2)(3x − 5)(3x + 5),3
+Q9,Sweet Potato Casserole,35,9x^3 + 54x^2 − 16x − 96,(x + 6)(3x − 4)(3x + 4),3
+Q9,Sweet Potato Casserole,36,4x^3 − 16x^2 − 49x + 196,(x − 4)(2x − 7)(2x + 7),3
+Q9,Sweet Potato Casserole,37,9x^3 + 45x^2 − 4x − 20,(x + 5)(3x − 2)(3x + 2),3
+Q9,Sweet Potato Casserole,38,4x^3 + 20x^2 − 25x − 125,(x + 5)(2x − 5)(2x + 5),3
+Q9,Sweet Potato Casserole,39,9x^3 + 9x^2 − x − 1,(x + 1)(3x − 1)(3x + 1),3
+Q9,Sweet Potato Casserole,40,4x^3 + 28x^2 − 25x − 175,(x + 7)(2x − 5)(2x + 5),3
+Q9,Sweet Potato Casserole,41,9x^3 + 54x^2 − 49x − 294,(x + 6)(3x − 7)(3x + 7),3
+Q9,Sweet Potato Casserole,42,9x^3 + 9x^2 − 16x − 16,(x + 1)(3x − 4)(3x + 4),3
+Q9,Sweet Potato Casserole,43,9x^3 + 63x^2 − 25x − 175,(x + 7)(3x − 5)(3x + 5),3
+Q9,Sweet Potato Casserole,44,4x^3 + 32x^2 − x − 8,(x + 8)(2x − 1)(2x + 1),3
+Q9,Sweet Potato Casserole,45,4x^3 − 36x^2 − 49x + 441,(x − 9)(2x − 7)(2x + 7),3
+Q9,Sweet Potato Casserole,46,4x^3 − 12x^2 − 49x + 147,(x − 3)(2x − 7)(2x + 7),3
+Q9,Sweet Potato Casserole,47,9x^3 + 54x^2 − 4x − 24,(x + 6)(3x − 2)(3x + 2),3
+Q9,Sweet Potato Casserole,48,4x^3 + 20x^2 − x − 5,(x + 5)(2x − 1)(2x + 1),3
+Q9,Sweet Potato Casserole,49,4x^3 − 16x^2 − 25x + 100,(x − 4)(2x − 5)(2x + 5),3
+Q9,Sweet Potato Casserole,50,4x^3 − 8x^2 − x + 2,(x − 2)(2x − 1)(2x + 1),3
+Q9,Sweet Potato Casserole,51,9x^3 − 63x^2 − 25x + 175,(x − 7)(3x − 5)(3x + 5),3
+Q9,Sweet Potato Casserole,52,9x^3 − 9x^2 − 25x + 25,(x − 1)(3x − 5)(3x + 5),3
+Q9,Sweet Potato Casserole,53,9x^3 − 45x^2 − 25x + 125,(x − 5)(3x − 5)(3x + 5),3
+Q9,Sweet Potato Casserole,54,4x^3 + 36x^2 − 9x − 81,(x + 9)(2x − 3)(2x + 3),3
+Q9,Sweet Potato Casserole,55,9x^3 + 72x^2 − 16x − 128,(x + 8)(3x − 4)(3x + 4),3
+Q9,Sweet Potato Casserole,56,4x^3 + 16x^2 − 9x − 36,(x + 4)(2x − 3)(2x + 3),3
+Q9,Sweet Potato Casserole,57,9x^3 + 81x^2 − 4x − 36,(x + 9)(3x − 2)(3x + 2),3
+Q9,Sweet Potato Casserole,58,9x^3 − 27x^2 − 49x + 147,(x − 3)(3x − 7)(3x + 7),3
+Q9,Sweet Potato Casserole,59,9x^3 − 9x^2 − 16x + 16,(x − 1)(3x − 4)(3x + 4),3
+Q9,Sweet Potato Casserole,60,9x^3 − 81x^2 − 16x + 144,(x − 9)(3x − 4)(3x + 4),3
+Q9,Sweet Potato Casserole,61,9x^3 − 36x^2 − 49x + 196,(x − 4)(3x − 7)(3x + 7),3
+Q9,Sweet Potato Casserole,62,9x^3 + 63x^2 − 4x − 28,(x + 7)(3x − 2)(3x + 2),3
+Q9,Sweet Potato Casserole,63,9x^3 − 45x^2 − 4x + 20,(x − 5)(3x − 2)(3x + 2),3
+Q9,Sweet Potato Casserole,64,9x^3 + 72x^2 − 4x − 32,(x + 8)(3x − 2)(3x + 2),3
+Q9,Sweet Potato Casserole,65,4x^3 − 8x^2 − 9x + 18,(x − 2)(2x − 3)(2x + 3),3
+Q9,Sweet Potato Casserole,66,4x^3 + 12x^2 − 25x − 75,(x + 3)(2x − 5)(2x + 5),3
+Q9,Sweet Potato Casserole,67,9x^3 + 18x^2 − 25x − 50,(x + 2)(3x − 5)(3x + 5),3
+Q9,Sweet Potato Casserole,68,9x^3 + 18x^2 − x − 2,(x + 2)(3x − 1)(3x + 1),3
+Q9,Sweet Potato Casserole,69,9x^3 + 27x^2 − 25x − 75,(x + 3)(3x − 5)(3x + 5),3
+Q9,Sweet Potato Casserole,70,9x^3 + 45x^2 − 25x − 125,(x + 5)(3x − 5)(3x + 5),3
+Q9,Sweet Potato Casserole,71,4x^3 − 16x^2 − x + 4,(x − 4)(2x − 1)(2x + 1),3
+Q9,Sweet Potato Casserole,72,4x^3 + 4x^2 − x − 1,(x + 1)(2x − 1)(2x + 1),3
+Q9,Sweet Potato Casserole,73,4x^3 + 16x^2 − 25x − 100,(x + 4)(2x − 5)(2x + 5),3
+Q9,Sweet Potato Casserole,74,9x^3 − 54x^2 − 25x + 150,(x − 6)(3x − 5)(3x + 5),3
+Q9,Sweet Potato Casserole,75,9x^3 − 72x^2 − 25x + 200,(x − 8)(3x − 5)(3x + 5),3
+Q9,Sweet Potato Casserole,76,4x^3 − 36x^2 − 25x + 225,(x − 9)(2x − 5)(2x + 5),3
+Q9,Sweet Potato Casserole,77,9x^3 + 18x^2 − 4x − 8,(x + 2)(3x − 2)(3x + 2),3
+Q9,Sweet Potato Casserole,78,4x^3 + 8x^2 − 25x − 50,(x + 2)(2x − 5)(2x + 5),3
+Q9,Sweet Potato Casserole,79,4x^3 − 32x^2 − 25x + 200,(x − 8)(2x − 5)(2x + 5),3
+Q9,Sweet Potato Casserole,80,9x^3 + 54x^2 − x − 6,(x + 6)(3x − 1)(3x + 1),3
+Q9,Sweet Potato Casserole,81,4x^3 − 20x^2 − x + 5,(x − 5)(2x − 1)(2x + 1),3
+Q9,Sweet Potato Casserole,82,4x^3 + 28x^2 − x − 7,(x + 7)(2x − 1)(2x + 1),3
+Q9,Sweet Potato Casserole,83,4x^3 − 8x^2 − 49x + 98,(x − 2)(2x − 7)(2x + 7),3
+Q9,Sweet Potato Casserole,84,9x^3 − 72x^2 − 49x + 392,(x − 8)(3x − 7)(3x + 7),3
+Q9,Sweet Potato Casserole,85,9x^3 + 27x^2 − 49x − 147,(x + 3)(3x − 7)(3x + 7),3
+Q9,Sweet Potato Casserole,86,9x^3 + 45x^2 − 49x − 245,(x + 5)(3x − 7)(3x + 7),3
+Q9,Sweet Potato Casserole,87,4x^3 − 36x^2 − 9x + 81,(x − 9)(2x − 3)(2x + 3),3
+Q9,Sweet Potato Casserole,88,9x^3 − 81x^2 − 25x + 225,(x − 9)(3x − 5)(3x + 5),3
+Q9,Sweet Potato Casserole,89,4x^3 − 12x^2 − 25x + 75,(x − 3)(2x − 5)(2x + 5),3
+Q9,Sweet Potato Casserole,90,4x^3 + 12x^2 − x − 3,(x + 3)(2x − 1)(2x + 1),3
+Q9,Sweet Potato Casserole,91,4x^3 + 12x^2 − 49x − 147,(x + 3)(2x − 7)(2x + 7),3
+Q9,Sweet Potato Casserole,92,9x^3 − 72x^2 − 4x + 32,(x − 8)(3x − 2)(3x + 2),3
+Q9,Sweet Potato Casserole,93,9x^3 + 72x^2 − x − 8,(x + 8)(3x − 1)(3x + 1),3
+Q9,Sweet Potato Casserole,94,4x^3 − 20x^2 − 9x + 45,(x − 5)(2x − 3)(2x + 3),3
+Q9,Sweet Potato Casserole,95,9x^3 − 27x^2 − 4x + 12,(x − 3)(3x − 2)(3x + 2),3
+Q9,Sweet Potato Casserole,96,9x^3 − 9x^2 − x + 1,(x − 1)(3x − 1)(3x + 1),3
+Q9,Sweet Potato Casserole,97,4x^3 − 20x^2 − 49x + 245,(x − 5)(2x − 7)(2x + 7),3
+Q9,Sweet Potato Casserole,98,4x^3 + 4x^2 − 25x − 25,(x + 1)(2x − 5)(2x + 5),3
+Q9,Sweet Potato Casserole,99,9x^3 − 63x^2 − 16x + 112,(x − 7)(3x − 4)(3x + 4),3
+Q9,Sweet Potato Casserole,100,4x^3 − 24x^2 − 25x + 150,(x − 6)(2x − 5)(2x + 5),3
+Q10,Apple Pie,1,x^4 − 5x^2 + 4,(x − 1)(x + 1)(x − 2)(x + 2),4
+Q10,Apple Pie,2,x^4 − 146x^2 + 3025,(x − 5)(x + 5)(x − 11)(x + 11),4
+Q10,Apple Pie,3,x^4 − 125x^2 + 484,(x − 2)(x + 2)(x − 11)(x + 11),4
+Q10,Apple Pie,4,x^4 − 113x^2 + 3136,(x − 7)(x + 7)(x − 8)(x + 8),4
+Q10,Apple Pie,5,x^4 − 197x^2 + 196,(x − 1)(x + 1)(x − 14)(x + 14),4
+Q10,Apple Pie,6,x^4 − 117x^2 + 2916,(x − 6)(x + 6)(x − 9)(x + 9),4
+Q10,Apple Pie,7,x^4 − 50x^2 + 49,(x − 1)(x + 1)(x − 7)(x + 7),4
+Q10,Apple Pie,8,x^4 − 65x^2 + 784,(x − 4)(x + 4)(x − 7)(x + 7),4
+Q10,Apple Pie,9,x^4 − 200x^2 + 784,(x − 2)(x + 2)(x − 14)(x + 14),4
+Q10,Apple Pie,10,x^4 − 34x^2 + 225,(x − 3)(x + 3)(x − 5)(x + 5),4
+Q10,Apple Pie,11,x^4 − 58x^2 + 441,(x − 3)(x + 3)(x − 7)(x + 7),4
+Q10,Apple Pie,12,x^4 − 185x^2 + 2704,(x − 4)(x + 4)(x − 13)(x + 13),4
+Q10,Apple Pie,13,x^4 − 160x^2 + 2304,(x − 4)(x + 4)(x − 12)(x + 12),4
+Q10,Apple Pie,14,x^4 − 17x^2 + 16,(x − 1)(x + 1)(x − 4)(x + 4),4
+Q10,Apple Pie,15,x^4 − 61x^2 + 900,(x − 5)(x + 5)(x − 6)(x + 6),4
+Q10,Apple Pie,16,x^4 − 85x^2 + 1764,(x − 6)(x + 6)(x − 7)(x + 7),4
+Q10,Apple Pie,17,x^4 − 73x^2 + 576,(x − 3)(x + 3)(x − 8)(x + 8),4
+Q10,Apple Pie,18,x^4 − 125x^2 + 2500,(x − 5)(x + 5)(x − 10)(x + 10),4
+Q10,Apple Pie,19,x^4 − 25x^2 + 144,(x − 3)(x + 3)(x − 4)(x + 4),4
+Q10,Apple Pie,20,x^4 − 130x^2 + 1089,(x − 3)(x + 3)(x − 11)(x + 11),4
+Q10,Apple Pie,21,x^4 − 137x^2 + 1936,(x − 4)(x + 4)(x − 11)(x + 11),4
+Q10,Apple Pie,22,x^4 − 205x^2 + 1764,(x − 3)(x + 3)(x − 14)(x + 14),4
+Q10,Apple Pie,23,x^4 − 97x^2 + 1296,(x − 4)(x + 4)(x − 9)(x + 9),4
+Q10,Apple Pie,24,x^4 − 173x^2 + 676,(x − 2)(x + 2)(x − 13)(x + 13),4
+Q10,Apple Pie,25,x^4 − 136x^2 + 3600,(x − 6)(x + 6)(x − 10)(x + 10),4
+Q10,Apple Pie,26,x^4 − 10x^2 + 9,(x − 1)(x + 1)(x − 3)(x + 3),4
+Q10,Apple Pie,27,x^4 − 80x^2 + 1024,(x − 4)(x + 4)(x − 8)(x + 8),4
+Q10,Apple Pie,28,x^4 − 169x^2 + 3600,(x − 5)(x + 5)(x − 12)(x + 12),4
+Q10,Apple Pie,29,x^4 − 106x^2 + 2025,(x − 5)(x + 5)(x − 9)(x + 9),4
+Q10,Apple Pie,30,x^4 − 74x^2 + 1225,(x − 5)(x + 5)(x − 7)(x + 7),4
+Q10,Apple Pie,31,x^4 − 122x^2 + 121,(x − 1)(x + 1)(x − 11)(x + 11),4
+Q10,Apple Pie,32,x^4 − 109x^2 + 900,(x − 3)(x + 3)(x − 10)(x + 10),4
+Q10,Apple Pie,33,x^4 − 148x^2 + 576,(x − 2)(x + 2)(x − 12)(x + 12),4
+Q10,Apple Pie,34,x^4 − 41x^2 + 400,(x − 4)(x + 4)(x − 5)(x + 5),4
+Q10,Apple Pie,35,x^4 − 153x^2 + 1296,(x − 3)(x + 3)(x − 12)(x + 12),4
+Q10,Apple Pie,36,x^4 − 37x^2 + 36,(x − 1)(x + 1)(x − 6)(x + 6),4
+Q10,Apple Pie,37,x^4 − 82x^2 + 81,(x − 1)(x + 1)(x − 9)(x + 9),4
+Q10,Apple Pie,38,x^4 − 53x^2 + 196,(x − 2)(x + 2)(x − 7)(x + 7),4
+Q10,Apple Pie,39,x^4 − 104x^2 + 400,(x − 2)(x + 2)(x − 10)(x + 10),4
+Q10,Apple Pie,40,x^4 − 29x^2 + 100,(x − 2)(x + 2)(x − 5)(x + 5),4
+Q10,Apple Pie,41,x^4 − 85x^2 + 324,(x − 2)(x + 2)(x − 9)(x + 9),4
+Q10,Apple Pie,42,x^4 − 145x^2 + 144,(x − 1)(x + 1)(x − 12)(x + 12),4
+Q10,Apple Pie,43,x^4 − 89x^2 + 1600,(x − 5)(x + 5)(x − 8)(x + 8),4
+Q10,Apple Pie,44,x^4 − 13x^2 + 36,(x − 2)(x + 2)(x − 3)(x + 3),4
+Q10,Apple Pie,45,x^4 − 212x^2 + 3136,(x − 4)(x + 4)(x − 14)(x + 14),4
+Q10,Apple Pie,46,x^4 − 68x^2 + 256,(x − 2)(x + 2)(x − 8)(x + 8),4
+Q10,Apple Pie,47,x^4 − 45x^2 + 324,(x − 3)(x + 3)(x − 6)(x + 6),4
+Q10,Apple Pie,48,x^4 − 40x^2 + 144,(x − 2)(x + 2)(x − 6)(x + 6),4
+Q10,Apple Pie,49,x^4 − 101x^2 + 100,(x − 1)(x + 1)(x − 10)(x + 10),4
+Q10,Apple Pie,50,x^4 − 90x^2 + 729,(x − 3)(x + 3)(x − 9)(x + 9),4
+Q10,Apple Pie,51,x^4 − 116x^2 + 1600,(x − 4)(x + 4)(x − 10)(x + 10),4
+Q10,Apple Pie,52,x^4 − 178x^2 + 1521,(x − 3)(x + 3)(x − 13)(x + 13),4
+Q10,Apple Pie,53,x^4 − 65x^2 + 64,(x − 1)(x + 1)(x − 8)(x + 8),4
+Q10,Apple Pie,54,x^4 − 100x^2 + 2304,(x − 6)(x + 6)(x − 8)(x + 8),4
+Q10,Apple Pie,55,x^4 − 26x^2 + 25,(x − 1)(x + 1)(x − 5)(x + 5),4
+Q10,Apple Pie,56,x^4 − 52x^2 + 576,(x − 4)(x + 4)(x − 6)(x + 6),4
+Q10,Apple Pie,57,x^4 − 170x^2 + 169,(x − 1)(x + 1)(x − 13)(x + 13),4
+Q10,Apple Pie,58,x^4 − 20x^2 + 64,(x − 2)(x + 2)(x − 4)(x + 4),4
+Q11,Pumpkin Pie,1,x^4 − 13x^2 + 36,(x − 2)(x + 2)(x − 3)(x + 3),4
+Q11,Pumpkin Pie,2,x^4 − 19x^2 − 150,(x^2 + 6)(x − 5)(x + 5),3
+Q11,Pumpkin Pie,3,x^4 − 13x^2 − 300,(x^2 + 12)(x − 5)(x + 5),3
+Q11,Pumpkin Pie,4,x^4 − x^2 − 12,(x^2 + 3)(x − 2)(x + 2),3
+Q11,Pumpkin Pie,5,x^4 − 47x^2 − 98,(x^2 + 2)(x − 7)(x + 7),3
+Q11,Pumpkin Pie,6,x^4 − 59x^2 − 320,(x^2 + 5)(x − 8)(x + 8),3
+Q11,Pumpkin Pie,7,x^4 + 2x^2 − 3,(x^2 + 3)(x − 1)(x + 1),3
+Q11,Pumpkin Pie,8,x^4 − 4x^2 − 45,(x^2 + 5)(x − 3)(x + 3),3
+Q11,Pumpkin Pie,9,x^4 − 2x^2 − 63,(x^2 + 7)(x − 3)(x + 3),3
+Q11,Pumpkin Pie,10,x^4 − 38x^2 − 539,(x^2 + 11)(x − 7)(x + 7),3
+Q11,Pumpkin Pie,11,x^4 − 11x^2 − 80,(x^2 + 5)(x − 4)(x + 4),3
+Q11,Pumpkin Pie,12,x^4 − 10x^2 − 96,(x^2 + 6)(x − 4)(x + 4),3
+Q11,Pumpkin Pie,13,x^4 − 55x^2 − 576,(x^2 + 9)(x − 8)(x + 8),3
+Q11,Pumpkin Pie,14,x^4 − 25x^2 − 396,(x^2 + 11)(x − 6)(x + 6),3
+Q11,Pumpkin Pie,15,x^4 − 3x^2 − 4,(x^2 + 1)(x − 2)(x + 2),3
+Q11,Pumpkin Pie,16,x^4 − 29x^2 − 252,(x^2 + 7)(x − 6)(x + 6),3
+Q11,Pumpkin Pie,17,x^4 − 9x^2 − 112,(x^2 + 7)(x − 4)(x + 4),3
+Q11,Pumpkin Pie,18,x^4 + 2x^2 − 99,(x^2 + 11)(x − 3)(x + 3),3
+Q11,Pumpkin Pie,19,x^4 − 41x^2 − 392,(x^2 + 8)(x − 7)(x + 7),3
+Q11,Pumpkin Pie,20,x^4 − 21x^2 − 100,(x^2 + 4)(x − 5)(x + 5),3
+Q11,Pumpkin Pie,21,x^4 − 7x^2 − 144,(x^2 + 9)(x − 4)(x + 4),3
+Q11,Pumpkin Pie,22,x^4 − 14x^2 − 275,(x^2 + 11)(x − 5)(x + 5),3
+Q11,Pumpkin Pie,23,x^4 − 23x^2 − 50,(x^2 + 2)(x − 5)(x + 5),3
+Q11,Pumpkin Pie,24,x^4 + 8x^2 − 9,(x^2 + 9)(x − 1)(x + 1),3
+Q11,Pumpkin Pie,25,x^4 + 4x^2 − 32,(x^2 + 8)(x − 2)(x + 2),3
+Q11,Pumpkin Pie,26,x^4 + 7x^2 − 44,(x^2 + 11)(x − 2)(x + 2),3
+Q11,Pumpkin Pie,27,x^4 − 40x^2 − 441,(x^2 + 9)(x − 7)(x + 7),3
+Q11,Pumpkin Pie,28,x^4 + 6x^2 − 40,(x^2 + 10)(x − 2)(x + 2),3
+Q11,Pumpkin Pie,29,x^4 − 20x^2 − 125,(x^2 + 5)(x − 5)(x + 5),3
+Q11,Pumpkin Pie,30,x^4 − 39x^2 − 490,(x^2 + 10)(x − 7)(x + 7),3
+Q11,Pumpkin Pie,31,x^4 − 54x^2 − 640,(x^2 + 10)(x − 8)(x + 8),3
+Q11,Pumpkin Pie,32,x^4 − 35x^2 − 36,(x^2 + 1)(x − 6)(x + 6),3
+Q11,Pumpkin Pie,33,x^4 − 24x^2 − 432,(x^2 + 12)(x − 6)(x + 6),3
+Q11,Pumpkin Pie,34,x^4 − 57x^2 − 448,(x^2 + 7)(x − 8)(x + 8),3
+Q11,Pumpkin Pie,35,x^4 − 22x^2 − 75,(x^2 + 3)(x − 5)(x + 5),3
+Q11,Pumpkin Pie,36,x^4 + x^2 − 90,(x^2 + 10)(x − 3)(x + 3),3
+Q11,Pumpkin Pie,37,x^4 − 5x^2 − 36,(x^2 + 4)(x − 3)(x + 3),3
+Q11,Pumpkin Pie,38,x^4 + 2x^2 − 24,(x^2 + 6)(x − 2)(x + 2),3
+Q11,Pumpkin Pie,39,x^4 − 48x^2 − 49,(x^2 + 1)(x − 7)(x + 7),3
+Q11,Pumpkin Pie,40,x^4 − 15x^2 − 250,(x^2 + 10)(x − 5)(x + 5),3
+Q11,Pumpkin Pie,41,x^4 − x^2 − 72,(x^2 + 8)(x − 3)(x + 3),3
+Q11,Pumpkin Pie,42,x^4 − 30x^2 − 216,(x^2 + 6)(x − 6)(x + 6),3
+Q11,Pumpkin Pie,43,x^4 − 8x^2 − 128,(x^2 + 8)(x − 4)(x + 4),3
+Q11,Pumpkin Pie,44,x^4 − 14x^2 − 32,(x^2 + 2)(x − 4)(x + 4),3
+Q11,Pumpkin Pie,45,x^4 − 13x^2 − 48,(x^2 + 3)(x − 4)(x + 4),3
+Q11,Pumpkin Pie,46,x^4 − 37x^2 − 588,(x^2 + 12)(x − 7)(x + 7),3
+Q11,Pumpkin Pie,47,x^4 − 32x^2 − 144,(x^2 + 4)(x − 6)(x + 6),3
+Q11,Pumpkin Pie,48,x^4 − 17x^2 − 200,(x^2 + 8)(x − 5)(x + 5),3
+Q11,Pumpkin Pie,49,x^4 + 8x^2 − 48,(x^2 + 12)(x − 2)(x + 2),3
+Q11,Pumpkin Pie,50,x^4 − 31x^2 − 180,(x^2 + 5)(x − 6)(x + 6),3
+Q11,Pumpkin Pie,51,x^4 + 6x^2 − 7,(x^2 + 7)(x − 1)(x + 1),3
+Q11,Pumpkin Pie,52,x^4 − 27x^2 − 324,(x^2 + 9)(x − 6)(x + 6),3
+Q11,Pumpkin Pie,53,x^4 + 11x^2 − 12,(x^2 + 12)(x − 1)(x + 1),3
+Q11,Pumpkin Pie,54,x^4 − 62x^2 − 128,(x^2 + 2)(x − 8)(x + 8),3
+Q11,Pumpkin Pie,55,x^4 − 6x^2 − 160,(x^2 + 10)(x − 4)(x + 4),3
+Q11,Pumpkin Pie,56,x^4 + 3x^2 − 28,(x^2 + 7)(x − 2)(x + 2),3
+Q11,Pumpkin Pie,57,x^4 − 34x^2 − 72,(x^2 + 2)(x − 6)(x + 6),3
+Q11,Pumpkin Pie,58,x^4 − 8x^2 − 9,(x^2 + 1)(x − 3)(x + 3),3
+Q11,Pumpkin Pie,59,x^4 − 43x^2 − 294,(x^2 + 6)(x − 7)(x + 7),3
+Q11,Pumpkin Pie,60,x^4 − 46x^2 − 147,(x^2 + 3)(x − 7)(x + 7),3
+Q11,Pumpkin Pie,61,x^4 + 9x^2 − 10,(x^2 + 10)(x − 1)(x + 1),3
+Q11,Pumpkin Pie,62,x^4 − 4x^2 − 192,(x^2 + 12)(x − 4)(x + 4),3
+Q11,Pumpkin Pie,63,x^4 − 58x^2 − 384,(x^2 + 6)(x − 8)(x + 8),3
+Q11,Pumpkin Pie,64,x^4 + 3x^2 − 108,(x^2 + 12)(x − 3)(x + 3),3
+Q11,Pumpkin Pie,65,x^4 − 28x^2 − 288,(x^2 + 8)(x − 6)(x + 6),3
+Q11,Pumpkin Pie,66,x^4 + 3x^2 − 4,(x^2 + 4)(x − 1)(x + 1),3
+Q11,Pumpkin Pie,67,x^4 − 24x^2 − 25,(x^2 + 1)(x − 5)(x + 5),3
+Q11,Pumpkin Pie,68,x^4 + 5x^2 − 6,(x^2 + 6)(x − 1)(x + 1),3
+Q11,Pumpkin Pie,69,x^4 − 53x^2 − 704,(x^2 + 11)(x − 8)(x + 8),3
+Q11,Pumpkin Pie,70,x^4 − 33x^2 − 108,(x^2 + 3)(x − 6)(x + 6),3
+Q11,Pumpkin Pie,71,x^4 − 15x^2 − 16,(x^2 + 1)(x − 4)(x + 4),3
+Q11,Pumpkin Pie,72,x^4 + 7x^2 − 8,(x^2 + 8)(x − 1)(x + 1),3
+Q11,Pumpkin Pie,73,x^4 − 42x^2 − 343,(x^2 + 7)(x − 7)(x + 7),3
+Q11,Pumpkin Pie,74,x^4 − 7x^2 − 18,(x^2 + 2)(x − 3)(x + 3),3
+Q11,Pumpkin Pie,75,x^4 − 5x^2 − 176,(x^2 + 11)(x − 4)(x + 4),3
+Q11,Pumpkin Pie,76,x^4 + 10x^2 − 11,(x^2 + 11)(x − 1)(x + 1),3
+Q11,Pumpkin Pie,77,x^4 − 44x^2 − 245,(x^2 + 5)(x − 7)(x + 7),3
+Q11,Pumpkin Pie,78,x^4 + 4x^2 − 5,(x^2 + 5)(x − 1)(x + 1),3
+Q11,Pumpkin Pie,79,x^4 − 18x^2 − 175,(x^2 + 7)(x − 5)(x + 5),3
+Q11,Pumpkin Pie,80,x^4 − 3x^2 − 54,(x^2 + 6)(x − 3)(x + 3),3
+Q11,Pumpkin Pie,81,x^4 − 45x^2 − 196,(x^2 + 4)(x − 7)(x + 7),3
+Q11,Pumpkin Pie,82,x^4 − 60x^2 − 256,(x^2 + 4)(x − 8)(x + 8),3
+Q11,Pumpkin Pie,83,x^4 − 52x^2 − 768,(x^2 + 12)(x − 8)(x + 8),3
+Q11,Pumpkin Pie,84,x^4 − 16x^2 − 225,(x^2 + 9)(x − 5)(x + 5),3
+Q11,Pumpkin Pie,85,x^4 − 6x^2 − 27,(x^2 + 3)(x − 3)(x + 3),3
+Q11,Pumpkin Pie,86,x^4 − 2x^2 − 8,(x^2 + 2)(x − 2)(x + 2),3
+Q11,Pumpkin Pie,87,x^4 − 56x^2 − 512,(x^2 + 8)(x − 8)(x + 8),3
+Q11,Pumpkin Pie,88,x^4 + x^2 − 2,(x^2 + 2)(x − 1)(x + 1),3
+Q11,Pumpkin Pie,89,x^4 − 26x^2 − 360,(x^2 + 10)(x − 6)(x + 6),3
+Q11,Pumpkin Pie,90,x^4 + 5x^2 − 36,(x^2 + 9)(x − 2)(x + 2),3
+Q11,Pumpkin Pie,91,x^4 − 63x^2 − 64,(x^2 + 1)(x − 8)(x + 8),3
+Q11,Pumpkin Pie,92,x^4 + x^2 − 20,(x^2 + 5)(x − 2)(x + 2),3
+Q11,Pumpkin Pie,93,x^4 − 12x^2 − 64,(x^2 + 4)(x − 4)(x + 4),3
+Q11,Pumpkin Pie,94,x^4 − 61x^2 − 192,(x^2 + 3)(x − 8)(x + 8),3
+Q12,Roast Turkey,1,4x^4 − 37x^2 + 9,(2x − 1)(2x + 1)(x − 3)(x + 3),4
+Q12,Roast Turkey,2,9x^4 − 325x^2 + 36,(3x − 1)(3x + 1)(x − 6)(x + 6),4
+Q12,Roast Turkey,3,9x^4 − 169x^2 + 400,(3x − 5)(3x + 5)(x − 4)(x + 4),4
+Q12,Roast Turkey,4,16x^4 − 169x^2 + 225,(4x − 5)(4x + 5)(x − 3)(x + 3),4
+Q12,Roast Turkey,5,9x^4 − 241x^2 + 400,(3x − 4)(3x + 4)(x − 5)(x + 5),4
+Q12,Roast Turkey,6,4x^4 − 85x^2 + 441,(2x − 7)(2x + 7)(x − 3)(x + 3),4
+Q12,Roast Turkey,7,25x^4 − 401x^2 + 16,(5x − 1)(5x + 1)(x − 4)(x + 4),4
+Q12,Roast Turkey,8,16x^4 − 401x^2 + 25,(4x − 1)(4x + 1)(x − 5)(x + 5),4
+Q12,Roast Turkey,9,4x^4 − 145x^2 + 36,(2x − 1)(2x + 1)(x − 6)(x + 6),4
+Q12,Roast Turkey,10,16x^4 − 65x^2 + 4,(4x − 1)(4x + 1)(x − 2)(x + 2),4
+Q12,Roast Turkey,11,4x^4 − 29x^2 + 25,(2x − 5)(2x + 5)(x − 1)(x + 1),4
+Q12,Roast Turkey,12,25x^4 − 409x^2 + 144,(5x − 3)(5x + 3)(x − 4)(x + 4),4
+Q12,Roast Turkey,13,25x^4 − 109x^2 + 36,(5x − 3)(5x + 3)(x − 2)(x + 2),4
+Q12,Roast Turkey,14,25x^4 − 104x^2 + 16,(5x − 2)(5x + 2)(x − 2)(x + 2),4
+Q12,Roast Turkey,15,9x^4 − 10x^2 + 1,(3x − 1)(3x + 1)(x − 1)(x + 1),4
+Q12,Roast Turkey,16,25x^4 − 116x^2 + 64,(5x − 4)(5x + 4)(x − 2)(x + 2),4
+Q12,Roast Turkey,17,4x^4 − 73x^2 + 144,(2x − 3)(2x + 3)(x − 4)(x + 4),4
+Q12,Roast Turkey,18,16x^4 − 145x^2 + 9,(4x − 1)(4x + 1)(x − 3)(x + 3),4
+Q12,Roast Turkey,19,16x^4 − 265x^2 + 144,(4x − 3)(4x + 3)(x − 4)(x + 4),4
+Q12,Roast Turkey,20,16x^4 − 17x^2 + 1,(4x − 1)(4x + 1)(x − 1)(x + 1),4
+Q12,Roast Turkey,21,25x^4 − 26x^2 + 1,(5x − 1)(5x + 1)(x − 1)(x + 1),4
+Q12,Roast Turkey,22,9x^4 − 250x^2 + 625,(3x − 5)(3x + 5)(x − 5)(x + 5),4
+Q12,Roast Turkey,23,4x^4 − 101x^2 + 25,(2x − 1)(2x + 1)(x − 5)(x + 5),4
+Q12,Roast Turkey,24,9x^4 − 52x^2 + 64,(3x − 4)(3x + 4)(x − 2)(x + 2),4
+Q12,Roast Turkey,25,4x^4 − 193x^2 + 1764,(2x − 7)(2x + 7)(x − 6)(x + 6),4
+Q12,Roast Turkey,26,9x^4 − 160x^2 + 256,(3x − 4)(3x + 4)(x − 4)(x + 4),4
+Q12,Roast Turkey,27,16x^4 − 409x^2 + 225,(4x − 3)(4x + 3)(x − 5)(x + 5),4
+Q12,Roast Turkey,28,16x^4 − 153x^2 + 81,(4x − 3)(4x + 3)(x − 3)(x + 3),4
+Q12,Roast Turkey,29,9x^4 − 106x^2 + 225,(3x − 5)(3x + 5)(x − 3)(x + 3),4
+Q12,Roast Turkey,30,9x^4 − 130x^2 + 441,(3x − 7)(3x + 7)(x − 3)(x + 3),4
+Q12,Roast Turkey,31,9x^4 − 25x^2 + 16,(3x − 4)(3x + 4)(x − 1)(x + 1),4
+Q12,Roast Turkey,32,16x^4 − 73x^2 + 36,(4x − 3)(4x + 3)(x − 2)(x + 2),4
+Q12,Roast Turkey,33,4x^4 − 169x^2 + 900,(2x − 5)(2x + 5)(x − 6)(x + 6),4
+Q12,Roast Turkey,34,9x^4 − 193x^2 + 784,(3x − 7)(3x + 7)(x − 4)(x + 4),4
+Q12,Roast Turkey,35,4x^4 − 125x^2 + 625,(2x − 5)(2x + 5)(x − 5)(x + 5),4
+Q12,Roast Turkey,36,9x^4 − 145x^2 + 16,(3x − 1)(3x + 1)(x − 4)(x + 4),4
+Q12,Roast Turkey,37,9x^4 − 85x^2 + 36,(3x − 2)(3x + 2)(x − 3)(x + 3),4
+Q12,Roast Turkey,38,4x^4 − 41x^2 + 100,(2x − 5)(2x + 5)(x − 2)(x + 2),4
+Q12,Roast Turkey,39,9x^4 − 58x^2 + 49,(3x − 7)(3x + 7)(x − 1)(x + 1),4
+Q12,Roast Turkey,40,4x^4 − 13x^2 + 9,(2x − 3)(2x + 3)(x − 1)(x + 1),4
+Q12,Roast Turkey,41,9x^4 − 34x^2 + 25,(3x − 5)(3x + 5)(x − 1)(x + 1),4
+Q12,Roast Turkey,42,25x^4 − 229x^2 + 36,(5x − 2)(5x + 2)(x − 3)(x + 3),4
+Q12,Roast Turkey,43,4x^4 − 61x^2 + 225,(2x − 5)(2x + 5)(x − 3)(x + 3),4
+Q12,Roast Turkey,44,9x^4 − 148x^2 + 64,(3x − 2)(3x + 2)(x − 4)(x + 4),4
+Q12,Roast Turkey,45,4x^4 − 5x^2 + 1,(2x − 1)(2x + 1)(x − 1)(x + 1),4
+Q12,Roast Turkey,46,4x^4 − 89x^2 + 400,(2x − 5)(2x + 5)(x − 4)(x + 4),4
+Q12,Roast Turkey,47,9x^4 − 274x^2 + 1225,(3x − 7)(3x + 7)(x − 5)(x + 5),4
+Q12,Roast Turkey,48,4x^4 − 17x^2 + 4,(2x − 1)(2x + 1)(x − 2)(x + 2),4
+Q12,Roast Turkey,49,9x^4 − 61x^2 + 100,(3x − 5)(3x + 5)(x − 2)(x + 2),4
+Q12,Roast Turkey,50,9x^4 − 328x^2 + 144,(3x − 2)(3x + 2)(x − 6)(x + 6),4
+Q12,Roast Turkey,51,16x^4 − 425x^2 + 625,(4x − 5)(4x + 5)(x − 5)(x + 5),4
+Q12,Roast Turkey,52,16x^4 − 25x^2 + 9,(4x − 3)(4x + 3)(x − 1)(x + 1),4
+Q12,Roast Turkey,53,25x^4 − 34x^2 + 9,(5x − 3)(5x + 3)(x − 1)(x + 1),4
+Q12,Roast Turkey,54,16x^4 − 257x^2 + 16,(4x − 1)(4x + 1)(x − 4)(x + 4),4
+Q12,Roast Turkey,55,25x^4 − 226x^2 + 9,(5x − 1)(5x + 1)(x − 3)(x + 3),4
+Q12,Roast Turkey,56,9x^4 − 13x^2 + 4,(3x − 2)(3x + 2)(x − 1)(x + 1),4
+Q12,Roast Turkey,57,25x^4 − 41x^2 + 16,(5x − 4)(5x + 4)(x − 1)(x + 1),4
+Q12,Roast Turkey,58,25x^4 − 404x^2 + 64,(5x − 2)(5x + 2)(x − 4)(x + 4),4
+Q12,Roast Turkey,59,4x^4 − 153x^2 + 324,(2x − 3)(2x + 3)(x − 6)(x + 6),4
+Q12,Roast Turkey,60,16x^4 − 281x^2 + 400,(4x − 5)(4x + 5)(x − 4)(x + 4),4
+Q12,Roast Turkey,61,9x^4 − 82x^2 + 9,(3x − 1)(3x + 1)(x − 3)(x + 3),4
+Q12,Roast Turkey,62,4x^4 − 25x^2 + 36,(2x − 3)(2x + 3)(x − 2)(x + 2),4
+Q12,Roast Turkey,63,9x^4 − 226x^2 + 25,(3x − 1)(3x + 1)(x − 5)(x + 5),4
+Q12,Roast Turkey,64,16x^4 − 89x^2 + 100,(4x − 5)(4x + 5)(x − 2)(x + 2),4
+Q12,Roast Turkey,65,25x^4 − 29x^2 + 4,(5x − 2)(5x + 2)(x − 1)(x + 1),4
+Q12,Roast Turkey,66,4x^4 − 65x^2 + 196,(2x − 7)(2x + 7)(x − 2)(x + 2),4
+Q12,Roast Turkey,67,16x^4 − 41x^2 + 25,(4x − 5)(4x + 5)(x − 1)(x + 1),4
+Q12,Roast Turkey,68,9x^4 − 229x^2 + 100,(3x − 2)(3x + 2)(x − 5)(x + 5),4
+Q12,Roast Turkey,69,9x^4 − 97x^2 + 144,(3x − 4)(3x + 4)(x − 3)(x + 3),4
+Q12,Roast Turkey,70,4x^4 − 45x^2 + 81,(2x − 3)(2x + 3)(x − 3)(x + 3),4
+Q12,Roast Turkey,71,9x^4 − 373x^2 + 1764,(3x − 7)(3x + 7)(x − 6)(x + 6),4
+Q12,Roast Turkey,72,4x^4 − 149x^2 + 1225,(2x − 7)(2x + 7)(x − 5)(x + 5),4
+Q12,Roast Turkey,73,9x^4 − 37x^2 + 4,(3x − 1)(3x + 1)(x − 2)(x + 2),4
+Q12,Roast Turkey,74,25x^4 − 101x^2 + 4,(5x − 1)(5x + 1)(x − 2)(x + 2),4
+Q12,Roast Turkey,75,4x^4 − 53x^2 + 49,(2x − 7)(2x + 7)(x − 1)(x + 1),4
+Q12,Roast Turkey,76,25x^4 − 416x^2 + 256,(5x − 4)(5x + 4)(x − 4)(x + 4),4
+Q12,Roast Turkey,77,25x^4 − 234x^2 + 81,(5x − 3)(5x + 3)(x − 3)(x + 3),4
+Q12,Roast Turkey,78,9x^4 − 85x^2 + 196,(3x − 7)(3x + 7)(x − 2)(x + 2),4
+Q12,Roast Turkey,79,9x^4 − 340x^2 + 576,(3x − 4)(3x + 4)(x − 6)(x + 6),4
+Q12,Roast Turkey,80,9x^4 − 349x^2 + 900,(3x − 5)(3x + 5)(x − 6)(x + 6),4
+Q12,Roast Turkey,81,25x^4 − 241x^2 + 144,(5x − 4)(5x + 4)(x − 3)(x + 3),4
+Q12,Roast Turkey,82,4x^4 − 109x^2 + 225,(2x − 3)(2x + 3)(x − 5)(x + 5),4
+Q12,Roast Turkey,83,4x^4 − 65x^2 + 16,(2x − 1)(2x + 1)(x − 4)(x + 4),4
+Q12,Roast Turkey,84,9x^4 − 40x^2 + 16,(3x − 2)(3x + 2)(x − 2)(x + 2),4
+Q12,Roast Turkey,85,4x^4 − 113x^2 + 784,(2x − 7)(2x + 7)(x − 4)(x + 4),4
